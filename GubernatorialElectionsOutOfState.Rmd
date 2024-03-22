@@ -1,0 +1,98 @@
+---
+title: "Gubernatorial Elections - Out-Of-State Influences"
+author: "Matthew Marcum"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r,  include=FALSE}
+library(socviz)
+library(tidyverse)
+library(here)
+library(dplyr)
+library(modelr)
+library(broom)
+library(GGally)
+library(readxl)
+library(downloadthis)
+library(data.table)
+```
+
+Election Results By State
+
+```{r}
+PresidentElectionsStateGroupings <- read_csv("https://raw.githubusercontent.com/mg-marcum/Gubernatorial-Elections/main/Presidential%20Elections%20and%20State%20Groupings.csv")
+RecentGubernatorialElections <- read_csv("https://raw.githubusercontent.com/mg-marcum/Gubernatorial-Elections/main/Most%20Recent%20Gubernatorial%20Elections%202020-2023.csv")
+RecentGubernatorialElections <- RecentGubernatorialElections[, -which(names(RecentGubernatorialElections) == "ThirdVotes")]
+RecentGubernatorialElections <- RecentGubernatorialElections[, -which(names(RecentGubernatorialElections) == "OtherVotes")]
+AllElections <- full_join(RecentGubernatorialElections, PresidentElectionsStateGroupings, by = "STATE")
+```
+
+Percentages
+
+```{r}
+AllElections$RepPresAv <- rowMeans(AllElections[, c("Republican2012", "Republican2016", "Republican2020")], na.rm = TRUE)
+AllElections$DemPresAv <- rowMeans(AllElections[, c("Democrat2012", "Democrat2016", "Democrat2020")], na.rm = TRUE)
+AllElections$OthPresAv <- rowMeans(AllElections[, c("Other2012", "Other2016", "Other2020")], na.rm = TRUE)
+AllElections$TotPresAv <- rowSums(AllElections[, c("RepPresAv", "DemPresAv", "OthPresAv")], na.rm = TRUE)
+AllElections$TotGovAv <- rowSums(AllElections[, c("RepublicanGov", "DemocratGov", "OtherGov")], na.rm = TRUE)
+AllElections <- AllElections %>% mutate(RPApct = RepPresAv / TotPresAv)
+AllElections <- AllElections %>% mutate(DPApct = DemPresAv / TotPresAv)
+AllElections <- AllElections %>% mutate(OPApct = OthPresAv / TotPresAv)
+AllElections <- AllElections %>% mutate(RGApct = RepublicanGov / TotGovAv)
+AllElections <- AllElections %>% mutate(DGApct = DemocratGov / TotGovAv)
+AllElections <- AllElections %>% mutate(OGApct = OtherGov / TotGovAv)
+```
+
+Comparison
+
+```{r}
+model_AllElectionsRepTot <- lm(RGApct ~ RPApct, data = AllElections)
+model_AllElectionsDemTot <- lm(DGApct ~ DPApct, data = AllElections)
+model_AllElectionsRepOff <- lm(RGApct ~ RPApct, data = subset(AllElections, Timing == "Off-Year" | Timing == "Both"))
+model_AllElectionsDemOff <- lm(DGApct ~ DPApct, data = subset(AllElections, Timing == "Off-Year" | Timing == "Both"))
+model_AllElectionsRepOn <- lm(RGApct ~ RPApct, data = subset(AllElections, Timing == "On-Year"))
+model_AllElectionsDemOn <- lm(DGApct ~ DPApct, data = subset(AllElections, Timing == "On-Year"))
+model_AllElectionsRepR <- lm(RGApct ~ RPApct, data = subset(AllElections, Political_Favorabilty == "Republican"))
+model_AllElectionsDemR <- lm(DGApct ~ DPApct, data = subset(AllElections, Political_Favorabilty == "Republican"))
+model_AllElectionsRepS <- lm(RGApct ~ RPApct, data = subset(AllElections, Political_Favorabilty == "Swing"))
+model_AllElectionsDemS <- lm(DGApct ~ DPApct, data = subset(AllElections, Political_Favorabilty == "Swing"))
+model_AllElectionsRepD <- lm(RGApct ~ RPApct, data = subset(AllElections, Political_Favorabilty == "Democrat"))
+model_AllElectionsDemD <- lm(DGApct ~ DPApct, data = subset(AllElections, Political_Favorabilty == "Democrat"))
+model_AllElectionsRepOffR <- lm(RGApct ~ RPApct, data = subset(AllElections, Political_Favorabilty == "Republican" & Timing == "Off-Year" | Timing == "Both"))
+model_AllElectionsDemOffR <- lm(DGApct ~ DPApct, data = subset(AllElections, Political_Favorabilty == "Republican" & Timing == "Off-Year" | Timing == "Both"))
+model_AllElectionsRepOffS <- lm(RGApct ~ RPApct, data = subset(AllElections, Political_Favorabilty == "Swing" & Timing == "Off-Year" | Timing == "Both"))
+model_AllElectionsDemOffS <- lm(DGApct ~ DPApct, data = subset(AllElections, Political_Favorabilty == "Swing" & Timing == "Off-Year" | Timing == "Both"))
+model_AllElectionsRepOffD <- lm(RGApct ~ RPApct, data = subset(AllElections, Political_Favorabilty == "Democrat" & Timing == "Off-Year" | Timing == "Both"))
+model_AllElectionsDemOffD <- lm(DGApct ~ DPApct, data = subset(AllElections, Political_Favorabilty == "Democrat" & Timing == "Off-Year" | Timing == "Both"))
+model_AllElectionsRepOnR <- lm(RGApct ~ RPApct, data = subset(AllElections, Political_Favorabilty == "Republican" & Timing == "On-Year"))
+model_AllElectionsDemOnR <- lm(DGApct ~ DPApct, data = subset(AllElections, Political_Favorabilty == "Republican" & Timing == "On-Year"))
+model_AllElectionsRepOnS <- lm(RGApct ~ RPApct, data = subset(AllElections, Political_Favorabilty == "Swing" & Timing == "On-Year"))
+model_AllElectionsDemOnS <- lm(DGApct ~ DPApct, data = subset(AllElections, Political_Favorabilty == "Swing" & Timing == "On-Year"))
+model_AllElectionsRepOnD <- lm(RGApct ~ RPApct, data = subset(AllElections, Political_Favorabilty == "Democrat" & Timing == "On-Year"))
+model_AllElectionsDemOnD <- lm(DGApct ~ DPApct, data = subset(AllElections, Political_Favorabilty == "Democrat" & Timing == "On-Year"))
+```
+
+```{r}
+CorrelationRep <- data.frame(RepublicanCorrelation = c(model_AllElectionsRepTot$coefficients["RPApct"], model_AllElectionsRepOff$coefficients["RPApct"], model_AllElectionsRepOn$coefficients["RPApct"],  model_AllElectionsRepR$coefficients["RPApct"], model_AllElectionsRepS$coefficients["RPApct"], model_AllElectionsRepD$coefficients["RPApct"],  model_AllElectionsRepOffR$coefficients["RPApct"], model_AllElectionsRepOffS$coefficients["RPApct"], model_AllElectionsRepOffD$coefficients["RPApct"], model_AllElectionsRepOnR$coefficients["RPApct"], model_AllElectionsRepOnS$coefficients["RPApct"], model_AllElectionsRepOnD$coefficients["RPApct"]))
+CorrelationDem <- data.frame(DemocratCorrelation = c(model_AllElectionsDemTot$coefficients["DPApct"], model_AllElectionsDemOff$coefficients["DPApct"], model_AllElectionsDemOn$coefficients["DPApct"],  model_AllElectionsDemR$coefficients["DPApct"], model_AllElectionsDemS$coefficients["DPApct"], model_AllElectionsDemD$coefficients["DPApct"],  model_AllElectionsDemOffR$coefficients["DPApct"], model_AllElectionsDemOffS$coefficients["DPApct"], model_AllElectionsDemOffD$coefficients["DPApct"], model_AllElectionsDemOnR$coefficients["DPApct"], model_AllElectionsDemOnS$coefficients["DPApct"], model_AllElectionsDemOnD$coefficients["DPApct"]))
+
+```
+
+```{r}
+Rsquare <- data.frame(RsquareRep = c(rsquare(model_AllElectionsRepTot, data = AllElections), rsquare(model_AllElectionsRepOff, data = AllElections), rsquare(model_AllElectionsRepOn, data = AllElections), rsquare(model_AllElectionsRepR, data = AllElections), rsquare(model_AllElectionsRepS, data = AllElections), rsquare(model_AllElectionsRepD, data = AllElections), rsquare(model_AllElectionsRepOffR, data = AllElections), rsquare(model_AllElectionsRepOffS, data = AllElections), rsquare(model_AllElectionsRepOffD, data = AllElections), rsquare(model_AllElectionsRepOnR, data = AllElections), rsquare(model_AllElectionsRepOnS, data = AllElections), rsquare(model_AllElectionsRepOnD, data = AllElections)), RsquareDem = c(rsquare(model_AllElectionsDemTot, data = AllElections), rsquare(model_AllElectionsDemOff, data = AllElections), rsquare(model_AllElectionsDemOn, data = AllElections), rsquare(model_AllElectionsDemR, data = AllElections), rsquare(model_AllElectionsDemS, data = AllElections), rsquare(model_AllElectionsDemD, data = AllElections), rsquare(model_AllElectionsDemOffR, data = AllElections), rsquare(model_AllElectionsDemOffS, data = AllElections), rsquare(model_AllElectionsDemOffD, data = AllElections), rsquare(model_AllElectionsDemOnR, data = AllElections), rsquare(model_AllElectionsDemOnS, data = AllElections), rsquare(model_AllElectionsDemOnD, data = AllElections)))
+```
+```{r}
+Labels <- data.frame(Category = c("Total", "Off-Year", "On-Year", "Republican state", "Swing state", "Democrat state", "Off-Year Rep", "Off-Year Swing", "Off-Year Dem", "On-Year Rep", "On-Year Swing", "On-Year Dem"))
+OutOfStateComparison <- cbind(Labels, CorrelationRep, CorrelationDem, Rsquare)
+OutOfStateComparison$CorrelationAv <- rowMeans(OutOfStateComparison[, c("RepublicanCorrelation", "DemocratCorrelation")], na.rm = TRUE)
+OutOfStateComparison$RsquareAv <- rowMeans(OutOfStateComparison[, c("RsquareRep", "RsquareDem")], na.rm = TRUE)
+OutOfStateComparison %>% download_this(output_name = "Coefficients and R Squared Values for Out-Of-State Influences", output_extension = ".xlsx", button_label = "Download as XLSX", button_type = "warning", has_icon = TRUE, icon = "fa fa-save")
+```

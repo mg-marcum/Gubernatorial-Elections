@@ -1,0 +1,13 @@
+Category,RepublicanCorrelation,DemocratCorrelation,RsquareRep,RsquareDem,CorrelationAv,RsquareAv
+Total,0.693,0.901,0.492,0.556,0.797,0.524
+Off-Year,0.638,0.859,0.489,0.555,0.749,0.522
+On-Year,1.005,1.173,0.392,0.506,1.089,0.449
+Republican state,1.052,1.167,0.359,0.508,1.110,0.434
+Swing state,0.344,0.461,0.367,0.424,0.403,0.395
+Democrat state,0.811,1.070,0.478,0.537,0.941,0.507
+Off-Year Rep,0.179,0.435,0.222,0.407,0.307,0.315
+Off-Year Swing,0.243,0.264,0.285,0.278,0.253,0.281
+Off-Year Dem,0.544,0.817,0.469,0.551,0.680,0.510
+On-Year Rep,1.067,1.052,0.348,0.541,1.060,0.444
+On-Year Swing,,,0.000,0.000,,0.000
+On-Year Dem,-2.875,2.553,-12.564,-1.313,-0.161,-6.938
