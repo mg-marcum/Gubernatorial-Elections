@@ -1,0 +1,111 @@
+---
+title: "Gubernatorial Elections - Impact of Candidate Quality"
+author: "Matthew Marcum"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r,  include=FALSE}
+library(socviz)
+library(tidyverse)
+library(here)
+library(dplyr)
+library(modelr)
+library(broom)
+library(GGally)
+library(readxl)
+library(downloadthis)
+library(data.table)
+```
+
+Approval Ratings
+
+```{r}
+PresidentElectionsStateGroupings <- read_csv("https://raw.githubusercontent.com/mg-marcum/Gubernatorial-Elections/main/Presidential%20Elections%20and%20State%20Groupings.csv")
+RecentGubernatorialElections <- read_csv("https://raw.githubusercontent.com/mg-marcum/Gubernatorial-Elections/main/Most%20Recent%20Gubernatorial%20Elections%202020-2023.csv")
+RecentGubernatorialElections <- RecentGubernatorialElections[, -which(names(RecentGubernatorialElections) == "ThirdVotes")]
+RecentGubernatorialElections <- RecentGubernatorialElections[, -which(names(RecentGubernatorialElections) == "OtherVotes")]
+ApprovalRatings <- read_csv("https://raw.githubusercontent.com/mg-marcum/Gubernatorial-Elections/main/Approval%20Ratings%20From%20Most%20Recent%20Gubernatorial%20Elections%20Simplified.csv")
+StateAbbreviated <- read_csv("https://raw.githubusercontent.com/mg-marcum/Gubernatorial-Elections/main/ElectionTiming.csv")
+ApprovalSimplified <- aggregate(pct ~ state + party, data = ApprovalRatings, FUN = mean)
+ApprovalSimplified %>% download_this(output_name = "Average Approval Ratings", output_extension = ".xlsx", button_label = "Download as XLSX", button_type = "warning", has_icon = TRUE, icon = "fa fa-save")
+```
+
+```{r}
+RepApproval <- ApprovalSimplified %>% filter(party != "D")
+RepApproval <- cbind(StateAbbreviated, RepApproval)
+RepApproval <- RepApproval %>% select(-state, -Timing)
+DemApproval <- ApprovalSimplified %>% filter(party != "R")
+DemApproval <- cbind(StateAbbreviated, DemApproval)
+DemApproval <- DemApproval %>% select(-state, -Timing)
+CombinedApproval <- full_join(RepApproval, DemApproval, by = "STATE")
+colnames(CombinedApproval)[colnames(CombinedApproval) == 'pct.x'] <- 'RepApproval'
+colnames(CombinedApproval)[colnames(CombinedApproval) == 'pct.y'] <- 'DemApproval'
+CombinedApproval <- CombinedApproval %>% select(-party.x, -party.y)
+ElectionsApproval <- cbind(RecentGubernatorialElections, CombinedApproval)
+ElectionsApproval <- ElectionsApproval %>% select(-c(1))
+ElectionsApproval <- full_join(PresidentElectionsStateGroupings, ElectionsApproval, by = "STATE")
+```
+Percentages
+
+```{r}
+ElectionsApproval$TotGov <- rowSums(ElectionsApproval[, c("RepublicanGov", "DemocratGov", "OtherGov")], na.rm = TRUE)
+ElectionsApproval <- ElectionsApproval %>% mutate(RGApct = RepublicanGov / TotGov)
+ElectionsApproval <- ElectionsApproval %>% mutate(DGApct = DemocratGov / TotGov)
+ElectionsApproval <- ElectionsApproval %>% mutate(OGApct = OtherGov / TotGov)
+```
+
+Comparison
+
+```{r}
+model_ElectionsApprovalRepTot <- lm(RGApct ~ RepApproval, data = ElectionsApproval)
+model_ElectionsApprovalDemTot <- lm(DGApct ~ DemApproval, data = ElectionsApproval)
+model_ElectionsApprovalRepOff <- lm(RGApct ~ RepApproval, data = subset(ElectionsApproval, Timing == "Off-Year" | Timing == "Both"))
+model_ElectionsApprovalDemOff <- lm(DGApct ~ DemApproval, data = subset(ElectionsApproval, Timing == "Off-Year" | Timing == "Both"))
+model_ElectionsApprovalRepOn <- lm(RGApct ~ RepApproval, data = subset(ElectionsApproval, Timing == "On-Year"))
+model_ElectionsApprovalDemOn <- lm(DGApct ~ DemApproval, data = subset(ElectionsApproval, Timing == "On-Year"))
+model_ElectionsApprovalRepR <- lm(RGApct ~ RepApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Republican"))
+model_ElectionsApprovalDemR <- lm(DGApct ~ DemApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Republican"))
+model_ElectionsApprovalRepS <- lm(RGApct ~ RepApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Swing"))
+model_ElectionsApprovalDemS <- lm(DGApct ~ DemApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Swing"))
+model_ElectionsApprovalRepD <- lm(RGApct ~ RepApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Democrat"))
+model_ElectionsApprovalDemD <- lm(DGApct ~ DemApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Democrat"))
+model_ElectionsApprovalRepOffR <- lm(RGApct ~ RepApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Republican" & Timing == "Off-Year" | Timing == "Both"))
+model_ElectionsApprovalDemOffR <- lm(DGApct ~ DemApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Republican" & Timing == "Off-Year" | Timing == "Both"))
+model_ElectionsApprovalRepOffS <- lm(RGApct ~ RepApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Swing" & Timing == "Off-Year" | Timing == "Both"))
+model_ElectionsApprovalDemOffS <- lm(DGApct ~ DemApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Swing" & Timing == "Off-Year" | Timing == "Both"))
+model_ElectionsApprovalRepOffD <- lm(RGApct ~ RepApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Democrat" & Timing == "Off-Year" | Timing == "Both"))
+model_ElectionsApprovalDemOffD <- lm(DGApct ~ DemApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Democrat" & Timing == "Off-Year" | Timing == "Both"))
+model_ElectionsApprovalRepOnR <- lm(RGApct ~ RepApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Republican" & Timing == "On-Year"))
+model_ElectionsApprovalDemOnR <- lm(DGApct ~ DemApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Republican" & Timing == "On-Year"))
+model_ElectionsApprovalRepOnS <- lm(RGApct ~ RepApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Swing" & Timing == "On-Year"))
+model_ElectionsApprovalDemOnS <- lm(DGApct ~ DemApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Swing" & Timing == "On-Year"))
+model_ElectionsApprovalRepOnD <- lm(RGApct ~ RepApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Democrat" & Timing == "On-Year"))
+model_ElectionsApprovalDemOnD <- lm(DGApct ~ DemApproval, data = subset(ElectionsApproval, Political_Favorabilty == "Democrat" & Timing == "On-Year"))
+```
+
+```{r}
+CorrelationRep <- data.frame(RepublicanCorrelation = c(model_ElectionsApprovalRepTot$coefficients["RepApproval"], model_ElectionsApprovalRepOff$coefficients["RepApproval"], model_ElectionsApprovalRepOn$coefficients["RepApproval"],  model_ElectionsApprovalRepR$coefficients["RepApproval"], model_ElectionsApprovalRepS$coefficients["RepApproval"], model_ElectionsApprovalRepD$coefficients["RepApproval"],  model_ElectionsApprovalRepOffR$coefficients["RepApproval"], model_ElectionsApprovalRepOffS$coefficients["RepApproval"], model_ElectionsApprovalRepOffD$coefficients["RepApproval"], model_ElectionsApprovalRepOnR$coefficients["RepApproval"], model_ElectionsApprovalRepOnS$coefficients["RepApproval"], model_ElectionsApprovalRepOnD$coefficients["RepApproval"]))
+CorrelationDem <- data.frame(DemocratCorrelation = c(model_ElectionsApprovalDemTot$coefficients["DemApproval"], model_ElectionsApprovalDemOff$coefficients["DemApproval"], model_ElectionsApprovalDemOn$coefficients["DemApproval"],  model_ElectionsApprovalDemR$coefficients["DemApproval"], model_ElectionsApprovalDemS$coefficients["DemApproval"], model_ElectionsApprovalDemD$coefficients["DemApproval"],  model_ElectionsApprovalDemOffR$coefficients["DemApproval"], model_ElectionsApprovalDemOffS$coefficients["DemApproval"], model_ElectionsApprovalDemOffD$coefficients["DemApproval"], model_ElectionsApprovalDemOnR$coefficients["DemApproval"], model_ElectionsApprovalDemOnS$coefficients["DemApproval"], model_ElectionsApprovalDemOnD$coefficients["DemApproval"]))
+```
+
+```{r}
+Rsquare <- data.frame(RsquareRep = c(rsquare(model_ElectionsApprovalRepTot, data = ElectionsApproval), rsquare(model_ElectionsApprovalRepOff, data = ElectionsApproval), rsquare(model_ElectionsApprovalRepOn, data = ElectionsApproval), rsquare(model_ElectionsApprovalRepR, data = ElectionsApproval), rsquare(model_ElectionsApprovalRepS, data = ElectionsApproval), rsquare(model_ElectionsApprovalRepD, data = ElectionsApproval), rsquare(model_ElectionsApprovalRepOffR, data = ElectionsApproval), rsquare(model_ElectionsApprovalRepOffS, data = ElectionsApproval), rsquare(model_ElectionsApprovalRepOffD, data = ElectionsApproval), rsquare(model_ElectionsApprovalRepOnR, data = ElectionsApproval), rsquare(model_ElectionsApprovalRepOnS, data = ElectionsApproval), rsquare(model_ElectionsApprovalRepOnD, data = ElectionsApproval)), RsquareDem = c(rsquare(model_ElectionsApprovalDemTot, data = ElectionsApproval), rsquare(model_ElectionsApprovalDemOff, data = ElectionsApproval), rsquare(model_ElectionsApprovalDemOn, data = ElectionsApproval), rsquare(model_ElectionsApprovalDemR, data = ElectionsApproval), rsquare(model_ElectionsApprovalDemS, data = ElectionsApproval), rsquare(model_ElectionsApprovalDemD, data = ElectionsApproval), rsquare(model_ElectionsApprovalDemOffR, data = ElectionsApproval), rsquare(model_ElectionsApprovalDemOffS, data = ElectionsApproval), rsquare(model_ElectionsApprovalDemOffD, data = ElectionsApproval), rsquare(model_ElectionsApprovalDemOnR, data = ElectionsApproval), rsquare(model_ElectionsApprovalDemOnS, data = ElectionsApproval), rsquare(model_ElectionsApprovalDemOnD, data = ElectionsApproval)))
+```
+
+```{r}
+Labels <- data.frame(Category = c("Total", "Off-Year", "On-Year", "Republican state", "Swing state", "Democrat state", "Off-Year Rep", "Off-Year Swing", "Off-Year Dem", "On-Year Rep", "On-Year Swing", "On-Year Dem"))
+CandidateQualityComparison <- cbind(Labels, CorrelationRep, CorrelationDem, Rsquare)
+CandidateQualityComparison$CorrelationAv <- rowMeans(CandidateQualityComparison[, c("RepublicanCorrelation", "DemocratCorrelation")], na.rm = TRUE)
+CandidateQualityComparison$RsquareAv <- rowMeans(CandidateQualityComparison[, c("RsquareRep", "RsquareDem")], na.rm = TRUE)
+CandidateQualityComparison %>% download_this(output_name = "Coefficients and R Squared Values for Influence of Candidate Quality", output_extension = ".xlsx", button_label = "Download as XLSX", button_type = "warning", has_icon = TRUE, icon = "fa fa-save")
+```
+
+
