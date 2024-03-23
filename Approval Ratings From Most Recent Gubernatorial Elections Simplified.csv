@@ -1,0 +1,4340 @@
+state,party,pct
+Alabama,D,25.3
+Alabama,R,59.5
+Alabama,D,26
+Alabama,R,51
+Alabama,D,38
+Alabama,R,58
+Alabama,D,42
+Alabama,R,56
+Alabama,D,28
+Alabama,R,53
+Alaska,D,25
+Alaska,R,47
+Alaska,R,4
+Alaska,D,25
+Alaska,R,51
+Alaska,D,28.3
+Alaska,R,43.1
+Alaska,R,7.3
+Alaska,D,29.1
+Alaska,R,48.2
+Alaska,D,46.6
+Alaska,R,53.4
+Alaska,R,52
+Alaska,D,26
+Alaska,R,49
+Alaska,R,6
+Alaska,D,26
+Alaska,R,54
+Alaska,D,41
+Alaska,R,59
+Alaska,R,50.2
+Alaska,D,25.8
+Alaska,R,43.5
+Alaska,R,10.5
+Alaska,D,26.4
+Alaska,R,50.9
+Alaska,D,24
+Alaska,R,40
+Alaska,R,5
+Alaska,D,22
+Alaska,R,43
+Alaska,R,8
+Alaska,D,24
+Alaska,R,46
+Alaska,R,49.5
+Alaska,D,42.3
+Alaska,R,42.5
+Alaska,D,43.7
+Alaska,R,48.3
+Alaska,D,26.4
+Alaska,R,43.4
+Alaska,D,44.8
+Alaska,R,51.7
+Alaska,D,23
+Alaska,R,43
+Alaska,D,29
+Alaska,R,44.4
+Alaska,D,22.6
+Alaska,R,46.5
+Alaska,D,40.8
+Alaska,R,54.5
+Alaska,D,46.8
+Alaska,R,49.9
+Alaska,D,29
+Alaska,R,44.4
+Alaska,D,24
+Alaska,R,36
+Alaska,R,43
+Alaska,D,46
+Alaska,R,44
+Alaska,D,22
+Alaska,R,36
+Alaska,D,28
+Alaska,R,32
+Alaska,R,40
+Alaska,D,50
+Alaska,R,41
+Alaska,D,33
+Alaska,R,38
+Alaska,D,53
+Alaska,R,42
+Alaska,R,43.6
+Alaska,R,47
+Alaska,R,33
+Arizona,D,46.9
+Arizona,R,50.5
+Arizona,D,49
+Arizona,R,51
+Arizona,D,46.6
+Arizona,R,49.7
+Arizona,D,48
+Arizona,R,52
+Arizona,D,45
+Arizona,R,45
+Arizona,D,48
+Arizona,R,50
+Arizona,D,45
+Arizona,R,49
+Arizona,D,48
+Arizona,R,51
+Arizona,D,46
+Arizona,R,49
+Arizona,D,45.2
+Arizona,R,46.6
+Arizona,D,48
+Arizona,R,47
+Arizona,D,48
+Arizona,R,50
+Arizona,D,46.7
+Arizona,R,50.2
+Arizona,D,46
+Arizona,R,50
+Arizona,D,42.3
+Arizona,R,53.4
+Arizona,D,46.8
+Arizona,R,49.2
+Arizona,D,46
+Arizona,R,47
+Arizona,D,48
+Arizona,R,48
+Arizona,D,47
+Arizona,R,49
+Arizona,D,47
+Arizona,R,50
+Arizona,D,40
+Arizona,R,42
+Arizona,D,44
+Arizona,R,44
+Arizona,D,43
+Arizona,R,54
+Arizona,D,45.3
+Arizona,R,48.6
+Arizona,D,44.2
+Arizona,R,46.7
+Arizona,D,47.9
+Arizona,R,47.2
+Arizona,D,46.4
+Arizona,R,49.2
+Arizona,D,46
+Arizona,R,50
+Arizona,D,45.8
+Arizona,R,44.8
+Arizona,D,47.5
+Arizona,R,47.4
+Arizona,D,45.6
+Arizona,R,49.3
+Arizona,D,45
+Arizona,R,46
+Arizona,D,43.96
+Arizona,R,46.6
+Arizona,D,49
+Arizona,R,49
+Arizona,D,49
+Arizona,R,46
+Arizona,D,49
+Arizona,R,44
+Arizona,D,44
+Arizona,R,43
+Arizona,D,46.2
+Arizona,R,45.4
+Arizona,D,45
+Arizona,R,46
+Arizona,D,47
+Arizona,R,51
+Arizona,D,45.6
+Arizona,R,50
+Arizona,D,49
+Arizona,R,48
+Arizona,D,49
+Arizona,R,37
+Arizona,D,53
+Arizona,R,39
+Arizona,D,44
+Arizona,R,43
+Arizona,D,46.1
+Arizona,R,46.1
+Arizona,D,50
+Arizona,R,40
+Arizona,D,45.8
+Arizona,R,46.5
+Arizona,D,44
+Arizona,R,46
+Arizona,D,47
+Arizona,R,44
+Arizona,D,43
+Arizona,R,38
+Arizona,D,49
+Arizona,R,40
+Arizona,D,42
+Arizona,R,37
+Arizona,D,48
+Arizona,R,40
+Arizona,D,47
+Arizona,R,38
+Arizona,D,44
+Arizona,R,39
+Arizona,D,50
+Arizona,R,45
+Arizona,D,47
+Arizona,R,46
+Arizona,D,41.4
+Arizona,R,42.7
+Arizona,D,41.6
+Arizona,R,37.1
+Arizona,D,40.7
+Arizona,R,39.3
+Arizona,D,41
+Arizona,R,39.1
+Arizona,D,39
+Arizona,R,34
+Arizona,D,40
+Arizona,R,31
+Arizona,D,41
+Arizona,R,37
+Arizona,D,43
+Arizona,R,35
+Arizona,D,38.5
+Arizona,R,52.8
+Arizona,D,37.4
+Arizona,R,54.9
+Arizona,D,36.3
+Arizona,R,56.7
+Arizona,D,40.2
+Arizona,R,55.3
+Arizona,D,39
+Arizona,R,54
+Arizona,D,36.5
+Arizona,R,56.4
+Arizona,D,40
+Arizona,R,53
+Arizona,D,35.7
+Arizona,R,56.8
+Arizona,D,35
+Arizona,R,56
+Arizona,D,37.3
+Arizona,R,54.3
+Arizona,D,36
+Arizona,R,56
+Arizona,D,46
+Arizona,R,54
+Arizona,D,34.8
+Arizona,R,57
+Arizona,D,37
+Arizona,R,55
+Arizona,D,35
+Arizona,R,54
+Arizona,D,43
+Arizona,R,52
+Arizona,D,45
+Arizona,R,52
+Arizona,D,35.3
+Arizona,R,54.8
+Arizona,D,42
+Arizona,R,55
+Arizona,D,41
+Arizona,R,55
+Arizona,D,40
+Arizona,R,54
+Arizona,D,38
+Arizona,R,54
+Arizona,D,41
+Arizona,R,52
+Arizona,D,37
+Arizona,R,57
+Arizona,D,33
+Arizona,R,42
+Arizona,D,39
+Arizona,R,57
+Arizona,D,39.6
+Arizona,R,47.2
+Arizona,D,37
+Arizona,R,54
+Arizona,D,33.56
+Arizona,R,52.13
+Arizona,D,35.02
+Arizona,R,50.65
+Arizona,D,37
+Arizona,R,55
+Arizona,D,35
+Arizona,R,54
+Arizona,D,43
+Arizona,R,57
+Arizona,D,38
+Arizona,R,49.6
+Arizona,D,40
+Arizona,R,45
+Arizona,D,37
+Arizona,R,41
+Arizona,D,38.3
+Arizona,R,41.9
+Arizona,D,42
+Arizona,R,51
+Arizona,D,37
+Arizona,R,48
+Arizona,D,43
+Arizona,R,51
+Arizona,D,39
+Arizona,R,49
+Arizona,D,46
+Arizona,R,49
+Arizona,D,45
+Arizona,R,48
+Arizona,D,39.1
+Arizona,R,50.7
+Arizona,D,33
+Arizona,R,41
+Arizona,D,48
+Arizona,R,49
+Arizona,D,40
+Arizona,R,51
+Arizona,D,39
+Arizona,R,49
+Arizona,D,44
+Arizona,R,48
+Arizona,D,41
+Arizona,R,48.8
+Arizona,D,43
+Arizona,R,44
+Arizona,D,42
+Arizona,R,41
+Arizona,D,43
+Arizona,R,42
+Arizona,D,44
+Arizona,R,42
+Arkansas,D,33.9
+Arkansas,R,53
+Arkansas,D,41
+Arkansas,R,51
+Arkansas,D,34
+Arkansas,R,59
+Arkansas,D,40
+Arkansas,R,51
+Arkansas,D,32
+Arkansas,R,62
+Arkansas,D,28
+Arkansas,R,58
+Arkansas,D,35
+Arkansas,R,59
+Arkansas,D,24
+Arkansas,R,60
+Arkansas,D,25
+Arkansas,R,60
+Arkansas,D,24
+Arkansas,R,63
+California,D,60
+California,R,40
+California,D,62
+California,R,38
+California,D,58
+California,R,37
+California,D,61
+California,R,39
+California,D,56
+California,R,37
+California,D,55
+California,R,36
+California,D,57
+California,R,35
+California,D,53
+California,R,32
+California,D,58
+California,R,31
+California,D,52
+California,R,25
+California,D,55
+California,R,31
+California,D,9.5
+California,R,41
+California,R,3.8
+California,R,3.6
+California,D,3.6
+California,R,2.7
+California,D,1.3
+California,D,1.2
+California,R,0.9
+California,D,5.8
+California,R,29.9
+California,D,6.2
+California,R,4.1
+California,R,3.6
+California,D,3.4
+California,R,3.1
+California,R,1.6
+California,R,0.6
+California,D,6
+California,R,22
+California,R,3
+California,D,4
+California,R,7
+California,R,4
+California,D,3
+California,D,2
+California,R,1
+California,D,5
+California,D,9
+California,R,29
+California,R,8
+California,R,6
+California,D,4
+California,D,4
+California,D,4
+California,D,3
+California,R,3
+California,D,2
+California,D,2
+California,D,2
+California,R,2
+California,D,1
+California,D,0
+California,R,4
+California,D,1
+California,R,39
+California,R,5
+California,R,1
+California,R,1
+California,R,2
+California,D,2
+California,D,5
+California,D,0
+California,D,2
+California,D,1
+California,D,10
+California,R,38
+California,R,8
+California,R,4
+California,R,4
+California,D,4
+California,D,2
+California,D,2
+California,D,1
+California,D,1
+California,R,1
+California,D,1
+California,D,1
+California,D,1
+California,D,52
+California,R,30
+California,D,51
+California,R,26
+California,D,50
+California,R,25
+California,D,49
+California,R,27
+California,D,13.4
+California,R,32.4
+California,R,3.6
+California,R,3.5
+California,D,2.8
+California,R,2.7
+California,R,1.3
+California,D,6
+California,R,20
+California,R,4
+California,R,4
+California,D,2
+California,R,2
+California,D,2
+California,D,1
+California,D,1
+California,D,1
+California,R,1
+California,R,1
+California,R,1
+California,R,1
+California,D,1
+California,D,1
+California,R,1
+California,R,1
+California,R,1
+California,D,1
+California,R,1
+California,R,1
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,D,22
+California,R,29.2
+California,R,4.1
+California,R,4.1
+California,R,1.1
+California,R,0.2
+California,R,26
+California,R,5
+California,R,1
+California,R,3
+California,R,3
+California,D,6
+California,R,27
+California,R,6
+California,D,5
+California,D,5
+California,R,5
+California,D,5
+California,R,5
+California,D,3
+California,D,2
+California,D,2
+California,R,2
+California,D,12
+California,R,21
+California,R,5
+California,R,4
+California,R,3
+California,R,3
+California,R,1
+California,D,13
+California,R,12
+California,R,13
+California,R,7
+California,R,2
+California,R,3
+California,R,3
+California,D,6
+California,R,27
+California,D,5
+California,R,4
+California,R,3
+California,D,3
+California,D,3
+California,R,2
+California,D,2
+California,R,1
+California,R,1
+California,D,13
+California,R,3
+California,R,23
+California,R,3
+California,R,2
+California,R,2
+California,R,3
+California,R,2
+California,D,27
+California,R,23
+California,R,10
+California,R,5
+California,R,4
+California,R,4
+California,R,3
+California,D,1.3
+California,R,6.6
+California,R,4.8
+California,R,22.5
+California,R,7.4
+California,R,3.8
+California,D,1
+California,R,1
+California,R,4
+California,D,0
+California,R,9
+California,R,3
+California,R,0
+California,R,1
+California,R,1
+California,R,0
+California,R,1
+California,R,2
+California,R,0
+California,D,1
+California,R,0
+California,R,1
+California,R,1
+California,R,0
+California,D,3
+California,R,0
+California,R,0
+California,R,1
+California,D,2
+California,D,1
+California,D,2
+California,R,0
+California,R,1
+California,R,0
+California,R,1
+California,D,0
+California,D,1
+California,R,1
+California,R,0
+California,D,1
+California,R,1
+California,R,4
+California,D,0
+California,R,10
+California,R,3
+California,R,0
+California,R,1
+California,R,0
+California,R,0
+California,R,1
+California,R,2
+California,R,0
+California,D,1
+California,R,0
+California,R,1
+California,R,1
+California,R,0
+California,D,3
+California,R,0
+California,R,0
+California,R,1
+California,D,3
+California,D,1
+California,D,2
+California,R,0
+California,R,1
+California,R,0
+California,R,1
+California,D,0
+California,D,1
+California,R,1
+California,R,0
+California,D,3
+California,R,18
+California,R,10
+California,R,10
+California,R,5
+California,R,3
+California,D,2
+California,D,1
+California,D,1
+California,D,1
+California,D,1
+California,R,1
+California,R,0
+California,D,0
+California,D,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,D,5
+California,R,12
+California,R,8
+California,R,7
+California,R,3
+California,R,2
+California,D,2
+California,D,2
+California,D,2
+California,D,2
+California,R,1
+California,D,1
+California,D,1
+California,R,0
+California,D,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,0
+California,R,16
+California,R,6
+California,R,6
+California,R,4
+California,R,4
+California,D,2
+California,D,9
+California,R,16
+California,R,7
+California,D,5
+California,R,4
+California,D,4
+California,R,2
+California,D,8
+California,R,18
+California,R,8
+California,D,5
+California,R,4
+California,D,4
+California,R,2
+California,R,22
+California,R,11
+California,R,6
+California,R,4
+California,R,24
+California,R,12
+California,R,6
+California,R,4
+California,R,3
+California,R,9
+California,R,5
+California,R,3
+California,R,3
+California,R,2
+California,R,3
+California,R,3
+California,R,5
+California,D,53
+California,R,41
+California,D,58
+California,R,38
+California,D,53
+California,R,38
+California,D,47.2
+California,R,36.7
+California,D,55
+California,R,41.6
+California,D,55
+California,R,35
+California,D,58
+California,R,40
+California,D,53
+California,R,34
+California,D,49
+California,R,38
+California,D,53.9
+California,R,41.4
+California,D,52.1
+California,R,32.2
+California,D,52
+California,R,35
+California,D,50.7
+California,R,43.3
+California,D,54
+California,R,31
+California,D,51
+California,R,30
+California,D,53.8
+California,R,42.2
+California,D,50
+California,R,45
+California,D,53
+California,R,42
+California,D,60
+California,R,40
+California,D,51
+California,R,39
+California,D,45.2
+California,R,41.1
+California,D,52.2
+California,R,39.5
+California,D,45
+California,R,29
+California,D,47.9
+California,R,39.7
+California,D,43.8
+California,R,38.7
+California,D,55
+California,R,31
+California,D,58
+California,R,29
+California,D,37
+California,R,22
+California,D,42
+California,R,26
+California,D,42
+California,R,32.2
+Colorado,D,54
+Colorado,R,42
+Colorado,D,55
+Colorado,R,43
+Colorado,D,49.6
+Colorado,R,42.5
+Colorado,D,54.2
+Colorado,R,40.8
+Colorado,D,49.5
+Colorado,R,41.8
+Colorado,D,57
+Colorado,R,41
+Colorado,D,55
+Colorado,R,40
+Colorado,D,54
+Colorado,R,33
+Colorado,D,52
+Colorado,R,34
+Colorado,D,56
+Colorado,R,38
+Colorado,D,54
+Colorado,R,39
+Colorado,D,56
+Colorado,R,39
+Colorado,D,54
+Colorado,R,36
+Colorado,D,51
+Colorado,R,34
+Colorado,D,49.2
+Colorado,R,40.7
+Colorado,D,52.8
+Colorado,R,35.9
+Colorado,D,49
+Colorado,R,42
+Colorado,D,46.8
+Colorado,R,42.1
+Colorado,D,54
+Colorado,R,37
+Colorado,D,53
+Colorado,R,39
+Colorado,D,50
+Colorado,R,32
+Colorado,D,52
+Colorado,R,32
+Colorado,D,53
+Colorado,R,37
+Colorado,D,51
+Colorado,R,40
+Colorado,D,52
+Colorado,R,35
+Colorado,D,54
+Colorado,R,34
+Colorado,D,45
+Colorado,R,40
+Colorado,D,50
+Colorado,R,42
+Colorado,D,54
+Colorado,R,42
+Colorado,D,47
+Colorado,R,40
+Colorado,D,47
+Colorado,R,40
+Colorado,D,44
+Colorado,R,33
+Colorado,D,47
+Colorado,R,40
+Colorado,D,42
+Colorado,R,37
+Connecticut,D,55
+Connecticut,R,24
+Connecticut,D,49
+Connecticut,R,43
+Connecticut,D,50
+Connecticut,R,46
+Connecticut,D,56
+Connecticut,R,41
+Connecticut,D,53.4
+Connecticut,R,42.7
+Connecticut,D,52
+Connecticut,R,34
+Connecticut,D,46
+Connecticut,R,40
+Connecticut,D,50
+Connecticut,R,43
+Connecticut,D,55
+Connecticut,R,40
+Connecticut,D,51
+Connecticut,R,38
+Connecticut,D,57
+Connecticut,R,40
+Connecticut,D,48.5
+Connecticut,R,38.4
+Connecticut,D,51
+Connecticut,R,43
+Connecticut,D,57.2
+Connecticut,R,42.9
+Connecticut,D,47.6
+Connecticut,R,29.7
+Connecticut,D,52
+Connecticut,R,36
+Connecticut,D,52
+Connecticut,R,32
+Connecticut,D,46
+Connecticut,R,37
+Connecticut,D,37.6
+Connecticut,R,40
+Connecticut,D,45.5
+Connecticut,R,39.3
+Connecticut,D,47
+Connecticut,R,43
+Connecticut,D,39.5
+Connecticut,R,36.1
+Connecticut,D,43
+Connecticut,R,38
+Connecticut,D,47
+Connecticut,R,39
+Connecticut,D,43.1
+Connecticut,R,36.9
+Connecticut,D,49
+Connecticut,R,40
+Connecticut,D,46
+Connecticut,R,33
+Connecticut,D,53
+Connecticut,R,37
+Connecticut,D,40.8
+Connecticut,R,36.9
+Delaware,D,55
+Delaware,R,26
+Florida,D,48
+Florida,R,52
+Florida,D,42
+Florida,R,56
+Florida,D,42
+Florida,R,57
+Florida,D,44
+Florida,R,56
+Florida,D,40
+Florida,R,53
+Florida,D,45
+Florida,R,54
+Florida,D,43
+Florida,R,53
+Florida,D,41.4
+Florida,R,54.1
+Florida,D,42
+Florida,R,54
+Florida,D,43
+Florida,R,53
+Florida,D,53.4
+Florida,R,46.6
+Florida,D,43
+Florida,R,53
+Florida,D,41
+Florida,R,55
+Florida,D,42
+Florida,R,54
+Florida,D,42
+Florida,R,53
+Florida,D,45
+Florida,R,53
+Florida,D,39.7
+Florida,R,50.9
+Florida,D,42
+Florida,R,52
+Florida,D,42
+Florida,R,52
+Florida,D,41
+Florida,R,46
+Florida,D,41
+Florida,R,52
+Florida,D,46
+Florida,R,47
+Florida,D,41
+Florida,R,49
+Florida,D,53
+Florida,R,47
+Florida,D,45
+Florida,R,52
+Florida,D,41
+Florida,R,47.8
+Florida,D,45
+Florida,R,51
+Florida,D,43
+Florida,R,49
+Florida,D,47
+Florida,R,50
+Florida,D,42
+Florida,R,52
+Florida,D,45
+Florida,R,50
+Florida,D,43
+Florida,R,47
+Florida,D,41
+Florida,R,50
+Florida,D,47
+Florida,R,50
+Florida,D,45
+Florida,R,48
+Florida,D,46
+Florida,R,51
+Florida,D,43
+Florida,R,51
+Florida,D,43
+Florida,R,50
+Florida,D,42
+Florida,R,50
+Florida,D,43
+Florida,R,50
+Florida,D,44
+Florida,R,47
+Florida,D,43
+Florida,R,49
+Florida,D,50.6
+Florida,R,49.4
+Florida,D,34.8
+Florida,R,35.5
+Florida,D,29.6
+Florida,R,48.6
+Florida,D,32.8
+Florida,R,49.2
+Florida,D,27
+Florida,R,50.6
+Florida,D,56.5
+Florida,R,43.5
+Florida,D,50.4
+Florida,R,49.6
+Florida,D,34
+Florida,R,55
+Florida,D,32
+Florida,R,55
+Florida,D,43
+Florida,R,51
+Florida,D,42
+Florida,R,53
+Florida,D,37
+Florida,R,53
+Florida,D,42.8
+Florida,R,48.6
+Florida,D,39.6
+Florida,R,50.8
+Florida,D,44.8
+Florida,R,50.6
+Florida,D,42.3
+Florida,R,51.2
+Florida,D,37
+Florida,R,44
+Florida,D,35
+Florida,R,46
+Florida,D,40
+Florida,R,46
+Florida,D,37
+Florida,R,50
+Florida,D,28.2
+Florida,R,47.2
+Florida,D,35
+Florida,R,46.6
+Florida,D,32.6
+Florida,R,46.4
+Florida,D,39
+Florida,R,47
+Florida,D,36
+Florida,R,48
+Florida,D,54.7
+Florida,R,45.3
+Florida,D,53.6
+Florida,R,46.4
+Florida,D,48
+Florida,R,52
+Florida,D,38
+Florida,R,41
+Florida,D,38
+Florida,R,41
+Florida,D,36
+Florida,R,45
+Florida,D,36
+Florida,R,45
+Florida,D,38
+Florida,R,48
+Florida,D,38
+Florida,R,48
+Florida,D,56.7
+Florida,R,43.3
+Florida,D,53.7
+Florida,R,46.3
+Florida,D,45
+Florida,R,49
+Florida,D,44
+Florida,R,49
+Florida,D,43
+Florida,R,46
+Florida,D,40
+Florida,R,50
+Florida,D,42
+Florida,R,51
+Florida,D,43
+Florida,R,51
+Florida,D,45.3
+Florida,R,43.8
+Florida,D,41.8
+Florida,R,45.1
+Florida,D,45.3
+Florida,R,54.7
+Florida,D,39.1
+Florida,R,60.9
+Florida,D,41
+Florida,R,51
+Florida,D,39
+Florida,R,51
+Florida,D,38
+Florida,R,53
+Florida,D,47
+Florida,R,53
+Florida,D,45.8
+Florida,R,54.2
+Florida,D,46.7
+Florida,R,53.3
+Florida,D,44.6
+Florida,R,45.2
+Florida,D,42
+Florida,R,51
+Florida,D,41
+Florida,R,52
+Florida,D,46.6
+Florida,R,50
+Florida,D,48.7
+Florida,R,46.3
+Florida,D,49.5
+Florida,R,45.4
+Florida,D,48.1
+Florida,R,45.6
+Florida,D,50
+Florida,R,43
+Florida,D,48.6
+Florida,R,45.5
+Florida,D,50.9
+Florida,R,45.6
+Florida,D,47
+Florida,R,46
+Florida,D,48.4
+Florida,R,46.3
+Florida,D,49.5
+Florida,R,44.8
+Florida,D,50
+Florida,R,46
+Florida,D,50
+Florida,R,45
+Florida,D,48
+Florida,R,47
+Florida,D,49.5
+Florida,R,44.5
+Florida,D,47
+Florida,R,45
+Florida,D,49.7
+Florida,R,43.2
+Florida,D,47
+Florida,R,48
+Florida,D,41.3
+Florida,R,40.3
+Florida,D,48
+Florida,R,44
+Florida,D,48.4
+Florida,R,46.1
+Florida,D,43.3
+Florida,R,50.5
+Florida,D,53
+Florida,R,47
+Florida,D,44.2
+Florida,R,41.9
+Florida,D,46.7
+Florida,R,47.3
+Florida,D,48
+Florida,R,45
+Florida,D,49
+Florida,R,48
+Florida,D,45
+Florida,R,44
+Florida,D,47.63
+Florida,R,43.25
+Florida,D,47.74
+Florida,R,37.61
+Florida,D,47
+Florida,R,46
+Florida,D,49
+Florida,R,43
+Florida,D,50
+Florida,R,44
+Florida,D,47
+Florida,R,35
+Florida,D,51
+Florida,R,46
+Florida,D,45
+Florida,R,48
+Florida,D,46
+Florida,R,47
+Florida,D,48.6
+Florida,R,36.8
+Florida,D,47.4
+Florida,R,46.4
+Florida,D,49
+Florida,R,42
+Florida,D,41.4
+Florida,R,36.7
+Florida,D,52
+Florida,R,46
+Florida,D,48
+Florida,R,42
+Florida,D,52
+Florida,R,42
+Florida,D,54
+Florida,R,42
+Florida,D,45
+Florida,R,48
+Florida,D,47
+Florida,R,45.9
+Florida,D,47.13
+Florida,R,43.82
+Florida,D,48
+Florida,R,40
+Florida,D,46.7
+Florida,R,44.7
+Florida,D,48
+Florida,R,44
+Florida,D,44.5
+Florida,R,46.7
+Florida,D,44
+Florida,R,43
+Florida,D,45
+Florida,R,44
+Florida,D,54
+Florida,R,45
+Florida,D,48
+Florida,R,42
+Florida,D,49
+Florida,R,41
+Florida,D,48
+Florida,R,43
+Florida,D,47
+Florida,R,43
+Florida,D,41
+Florida,R,39
+Florida,D,50.1
+Florida,R,43.5
+Florida,D,42
+Florida,R,35
+Florida,D,48
+Florida,R,42
+Florida,D,47
+Florida,R,43
+Florida,D,47
+Florida,R,43
+Florida,D,47.6
+Florida,R,47.3
+Florida,D,50
+Florida,R,47
+Florida,D,48
+Florida,R,43
+Florida,D,47
+Florida,R,45
+Florida,D,36
+Florida,R,39
+Florida,D,38
+Florida,R,35
+Florida,D,33
+Florida,R,29
+Georgia,D,45.5
+Georgia,R,52.1
+Georgia,D,45
+Georgia,R,50
+Georgia,D,46
+Georgia,R,53
+Georgia,D,43.7
+Georgia,R,52.6
+Georgia,D,45
+Georgia,R,54
+Georgia,D,42
+Georgia,R,56
+Georgia,D,40
+Georgia,R,52
+Georgia,D,45.7
+Georgia,R,53.7
+Georgia,D,41
+Georgia,R,55
+Georgia,D,43
+Georgia,R,52
+Georgia,D,43
+Georgia,R,50
+Georgia,D,44
+Georgia,R,53
+Georgia,D,45
+Georgia,R,51
+Georgia,D,45
+Georgia,R,52
+Georgia,D,47
+Georgia,R,49
+Georgia,D,46.4
+Georgia,R,52
+Georgia,D,44
+Georgia,R,49
+Georgia,D,43
+Georgia,R,49
+Georgia,D,43.2
+Georgia,R,51.6
+Georgia,D,45
+Georgia,R,50
+Georgia,D,44.3
+Georgia,R,51.1
+Georgia,D,41
+Georgia,R,51
+Georgia,D,45.3
+Georgia,R,52.2
+Georgia,D,44
+Georgia,R,51.3
+Georgia,D,44.6
+Georgia,R,51.2
+Georgia,D,43
+Georgia,R,53
+Georgia,D,42.9
+Georgia,R,50.3
+Georgia,D,42.9
+Georgia,R,52
+Georgia,D,43.6
+Georgia,R,52.5
+Georgia,D,46
+Georgia,R,51
+Georgia,D,49
+Georgia,R,50
+Georgia,D,46
+Georgia,R,50.9
+Georgia,D,44.6
+Georgia,R,50.2
+Georgia,D,45
+Georgia,R,47
+Georgia,D,40.7
+Georgia,R,51
+Georgia,D,43
+Georgia,R,50
+Georgia,D,44
+Georgia,R,51
+Georgia,D,46
+Georgia,R,52
+Georgia,D,46.5
+Georgia,R,49.9
+Georgia,D,42.2
+Georgia,R,50.2
+Georgia,D,44
+Georgia,R,50
+Georgia,D,46
+Georgia,R,45
+Georgia,D,47
+Georgia,R,49
+Georgia,D,48
+Georgia,R,50
+Georgia,D,42
+Georgia,R,50
+Georgia,D,48
+Georgia,R,47
+Georgia,D,43.5
+Georgia,R,48.2
+Georgia,D,46
+Georgia,R,48
+Georgia,D,44.2
+Georgia,R,50.6
+Georgia,D,43.5
+Georgia,R,51.4
+Georgia,D,47
+Georgia,R,47
+Georgia,D,44
+Georgia,R,49
+Georgia,D,44
+Georgia,R,47
+Georgia,D,44
+Georgia,R,45
+Georgia,D,43.1
+Georgia,R,48.1
+Georgia,D,44
+Georgia,R,45
+Georgia,D,43
+Georgia,R,51
+Georgia,D,45
+Georgia,R,52
+Georgia,D,45
+Georgia,R,50
+Georgia,D,44
+Georgia,R,53
+Georgia,D,47
+Georgia,R,49
+Georgia,D,48
+Georgia,R,48
+Georgia,D,44
+Georgia,R,51
+Georgia,D,45.3
+Georgia,R,50.8
+Georgia,D,45
+Georgia,R,50
+Georgia,D,46
+Georgia,R,49
+Georgia,D,43.7
+Georgia,R,50
+Georgia,D,47.7
+Georgia,R,47
+Georgia,D,44
+Georgia,R,48.8
+Georgia,D,43.6
+Georgia,R,51.2
+Georgia,D,43.7
+Georgia,R,49.3
+Georgia,D,44.5
+Georgia,R,47.4
+Georgia,D,47
+Georgia,R,49
+Georgia,D,48
+Georgia,R,48
+Georgia,D,40.8
+Georgia,R,48.1
+Georgia,D,43.2
+Georgia,R,47.1
+Georgia,D,41
+Georgia,R,44
+Georgia,D,42
+Georgia,R,37
+Georgia,D,44
+Georgia,R,47
+Georgia,D,45
+Georgia,R,40
+Georgia,D,39.9
+Georgia,R,44.4
+Georgia,D,41.9
+Georgia,R,44.2
+Georgia,D,41.4
+Georgia,R,42.5
+Georgia,D,42.2
+Georgia,R,41.4
+Georgia,D,40.1
+Georgia,R,52.4
+Georgia,D,50
+Georgia,R,46
+Georgia,D,47.3
+Georgia,R,49.4
+Georgia,D,47
+Georgia,R,49.2
+Georgia,D,46.9
+Georgia,R,46.7
+Georgia,D,48.1
+Georgia,R,47.2
+Georgia,D,47.7
+Georgia,R,48.4
+Georgia,D,47
+Georgia,R,49
+Georgia,D,47
+Georgia,R,47
+Georgia,D,45
+Georgia,R,46
+Georgia,D,46
+Georgia,R,44
+Georgia,D,46
+Georgia,R,47
+Georgia,D,37
+Georgia,R,35
+Georgia,D,46.3
+Georgia,R,47.7
+Georgia,D,45
+Georgia,R,47
+Georgia,D,46
+Georgia,R,46
+Georgia,D,46.3
+Georgia,R,48
+Georgia,D,43
+Georgia,R,43
+Georgia,D,48
+Georgia,R,42
+Georgia,D,44.9
+Georgia,R,45.3
+Georgia,D,46
+Georgia,R,44
+Georgia,D,44
+Georgia,R,46
+Georgia,D,49
+Georgia,R,40
+Georgia,D,40
+Georgia,R,37
+Hawaii,D,52
+Hawaii,R,31
+Hawaii,D,57
+Hawaii,R,34
+Hawaii,D,51
+Hawaii,R,24
+Idaho,D,39
+Idaho,R,55
+Idaho,D,28
+Idaho,R,36
+Idaho,D,28
+Idaho,R,38
+Idaho,D,31
+Idaho,R,43
+Illinois,D,49.3
+Illinois,R,41.7
+Illinois,D,59
+Illinois,R,39
+Illinois,D,56
+Illinois,R,39
+Illinois,D,51.6
+Illinois,R,42.3
+Illinois,D,44
+Illinois,R,42
+Illinois,D,49
+Illinois,R,34
+Illinois,D,49.7
+Illinois,R,27.7
+Illinois,D,48
+Illinois,R,40
+Illinois,D,50
+Illinois,R,45
+Illinois,D,50.9
+Illinois,R,35.8
+Illinois,D,44
+Illinois,R,37
+Illinois,D,46.5
+Illinois,R,35.8
+Illinois,D,50
+Illinois,R,38
+Illinois,D,52
+Illinois,R,42
+Illinois,D,56
+Illinois,R,38
+Illinois,D,48.9
+Illinois,R,39
+Illinois,D,50
+Illinois,R,43
+Illinois,D,52.4
+Illinois,R,28.4
+Illinois,D,55.2
+Illinois,R,27.4
+Illinois,D,53.1
+Illinois,R,22.4
+Illinois,D,53.1
+Illinois,R,21.6
+Illinois,D,55.5
+Illinois,R,22.2
+Illinois,D,49
+Illinois,R,33
+Illinois,D,50.1
+Illinois,R,29.7
+Illinois,D,42
+Illinois,R,24
+Illinois,D,47.4
+Illinois,R,31.5
+Illinois,D,49
+Illinois,R,27
+Illinois,D,48
+Illinois,R,32
+Illinois,D,44
+Illinois,R,27.1
+Illinois,D,46
+Illinois,R,30
+Illinois,D,35
+Illinois,R,23
+Illinois,D,41.1
+Illinois,R,30.2
+Illinois,D,42
+Illinois,R,29
+Illinois,D,39.4
+Illinois,R,26.1
+Illinois,D,44.9
+Illinois,R,29.9
+Illinois,D,36
+Illinois,R,27
+Illinois,D,47.3
+Illinois,R,32.2
+Illinois,D,49.4
+Illinois,R,31.2
+Illinois,D,46
+Illinois,R,28
+Illinois,D,50
+Illinois,R,35
+Illinois,D,47.2
+Illinois,R,29.8
+Indiana,D,28.5
+Indiana,R,46.8
+Indiana,D,26
+Indiana,R,52
+Indiana,D,25
+Indiana,R,55
+Indiana,D,21
+Indiana,R,60
+Indiana,D,30
+Indiana,R,36
+Indiana,D,24
+Indiana,R,53
+Indiana,D,21
+Indiana,R,64
+Indiana,D,25
+Indiana,R,45
+Iowa,D,37
+Iowa,R,54
+Iowa,D,38.1
+Iowa,R,57.1
+Iowa,D,42
+Iowa,R,54
+Iowa,D,39
+Iowa,R,56
+Iowa,D,35
+Iowa,R,52
+Iowa,D,38
+Iowa,R,58.6
+Iowa,D,35.6
+Iowa,R,52.9
+Iowa,D,41.1
+Iowa,R,55.5
+Iowa,D,31
+Iowa,R,48
+Iowa,D,43
+Iowa,R,51
+Iowa,D,38.1
+Iowa,R,55.3
+Iowa,D,49
+Iowa,R,46
+Iowa,D,46
+Iowa,R,44
+Iowa,D,45
+Iowa,R,48.9
+Iowa,D,43.61
+Iowa,R,40.01
+Iowa,D,47.7
+Iowa,R,40.31
+Iowa,D,43
+Iowa,R,41
+Iowa,D,35.9
+Iowa,R,31.3
+Iowa,D,37
+Iowa,R,42
+Kansas,D,48.7
+Kansas,R,44.1
+Kansas,D,44.6
+Kansas,R,43.1
+Kansas,D,53
+Kansas,R,41
+Kansas,D,45.4
+Kansas,R,47.9
+Kansas,D,43
+Kansas,R,47
+Kansas,D,47
+Kansas,R,44
+Kansas,D,40
+Kansas,R,44
+Kansas,D,43
+Kansas,R,44.3
+Kansas,D,43
+Kansas,R,41
+Kansas,D,32
+Kansas,R,30
+Kansas,D,41
+Kansas,R,41
+Kansas,D,42
+Kansas,R,41
+Kansas,D,35.9
+Kansas,R,37.3
+Kansas,D,40
+Kansas,R,36
+Kansas,D,41
+Kansas,R,39
+Kansas,D,38
+Kansas,R,39
+Kansas,D,46
+Kansas,R,47
+Kansas,D,38
+Kansas,R,39
+Kansas,D,36
+Kansas,R,35
+Kentucky,D,46.5
+Kentucky,R,52.4
+Kentucky,D,52
+Kentucky,R,35
+Kentucky,D,55
+Kentucky,R,36
+Kentucky,D,46
+Kentucky,R,46
+Kentucky,D,48
+Kentucky,R,39
+Kentucky,D,48
+Kentucky,R,39
+Kentucky,D,42
+Kentucky,R,48
+Kentucky,D,48
+Kentucky,R,40
+Kentucky,D,42
+Kentucky,R,41
+Kentucky,D,46
+Kentucky,R,47
+Louisiana,D,49.4
+Louisiana,R,50.6
+Louisiana,D,50.2
+Louisiana,R,49.8
+Louisiana,D,46.5
+Louisiana,R,46
+Louisiana,D,46
+Louisiana,R,38
+Louisiana,D,50
+Louisiana,R,46
+Louisiana,D,49.2
+Louisiana,R,48.9
+Louisiana,D,49.8
+Louisiana,R,47.6
+Louisiana,D,48
+Louisiana,R,46
+Louisiana,D,50.3
+Louisiana,R,46.6
+Louisiana,D,50
+Louisiana,R,47
+Louisiana,D,47
+Louisiana,R,47
+Louisiana,D,52
+Louisiana,R,17
+Louisiana,R,22
+Louisiana,D,48.3
+Louisiana,R,23.1
+Louisiana,R,24.9
+Louisiana,D,48
+Louisiana,R,22
+Louisiana,R,26
+Louisiana,D,1
+Louisiana,R,1
+Louisiana,D,38.7
+Louisiana,R,26.37
+Louisiana,R,24.95
+Louisiana,D,43.2
+Louisiana,R,44.71
+Louisiana,D,40.83
+Louisiana,R,45.32
+Louisiana,D,43
+Louisiana,R,20
+Louisiana,R,21
+Louisiana,D,3
+Louisiana,R,1
+Louisiana,D,47
+Louisiana,R,37
+Louisiana,D,48
+Louisiana,R,39
+Louisiana,D,47.9
+Louisiana,R,19.3
+Louisiana,R,24.8
+Louisiana,R,2.5
+Louisiana,D,1.4
+Louisiana,D,51
+Louisiana,R,19
+Louisiana,R,19
+Louisiana,R,0
+Louisiana,D,0
+Louisiana,D,47
+Louisiana,R,19
+Louisiana,R,22
+Louisiana,D,2
+Louisiana,R,1
+Louisiana,D,45
+Louisiana,R,17
+Louisiana,R,22
+Louisiana,R,2
+Louisiana,D,0
+Louisiana,D,51
+Louisiana,R,42
+Louisiana,D,53
+Louisiana,R,38
+Louisiana,D,52
+Louisiana,R,36
+Louisiana,D,47
+Louisiana,R,17
+Louisiana,R,23
+Louisiana,D,47
+Louisiana,R,22
+Louisiana,R,20
+Louisiana,D,2
+Louisiana,D,48
+Louisiana,R,20
+Louisiana,R,22
+Louisiana,D,2
+Louisiana,R,1
+Louisiana,D,41
+Louisiana,R,24
+Louisiana,R,16
+Louisiana,D,2
+Louisiana,R,1
+Louisiana,D,45
+Louisiana,R,27
+Louisiana,R,19
+Louisiana,D,0
+Louisiana,D,48
+Louisiana,R,44
+Louisiana,D,47
+Louisiana,R,24
+Louisiana,R,16
+Louisiana,D,52
+Louisiana,R,25
+Louisiana,R,19
+Louisiana,D,53
+Louisiana,R,47
+Louisiana,D,55
+Louisiana,R,45
+Louisiana,D,43.7
+Louisiana,R,34.6
+Louisiana,R,6.2
+Louisiana,D,49.2
+Louisiana,R,39.3
+Louisiana,D,49.3
+Louisiana,R,28.6
+Louisiana,D,42
+Louisiana,R,34
+Louisiana,R,8
+Louisiana,D,45
+Louisiana,R,45
+Louisiana,D,38
+Louisiana,R,23
+Louisiana,R,7
+Louisiana,D,40
+Louisiana,R,36
+Louisiana,D,41
+Louisiana,R,28
+Louisiana,D,46
+Louisiana,R,17
+Louisiana,R,5
+Louisiana,D,45
+Louisiana,R,28
+Louisiana,D,47
+Louisiana,R,23
+Louisiana,D,44
+Louisiana,R,33
+Louisiana,R,10
+Louisiana,D,47
+Louisiana,R,45
+Louisiana,D,45
+Louisiana,R,17
+Louisiana,R,4
+Louisiana,D,47
+Louisiana,R,27
+Louisiana,D,47
+Louisiana,R,19
+Louisiana,D,43
+Louisiana,R,31
+Louisiana,R,9
+Louisiana,D,44
+Louisiana,R,44
+Louisiana,D,48
+Louisiana,R,35
+Louisiana,D,52
+Louisiana,R,29
+Louisiana,D,40
+Louisiana,R,8
+Louisiana,R,3
+Louisiana,R,37
+Louisiana,D,51
+Louisiana,R,28
+Maine,D,52
+Maine,R,44
+Maine,D,49
+Maine,R,43
+Maine,D,55
+Maine,R,40
+Maine,D,49
+Maine,R,39
+Maine,D,52.6
+Maine,R,41.3
+Maine,D,53
+Maine,R,39
+Maine,D,49.2
+Maine,R,38.3
+Maine,D,51
+Maine,R,46
+Maine,D,46.4
+Maine,R,42.4
+Maine,D,42
+Maine,R,39
+Maine,R,41
+Maine,D,46
+Maine,D,45
+Maine,R,38
+Maine,D,55
+Maine,R,38
+Maine,D,49.7
+Maine,R,41.7
+Maine,D,44.4
+Maine,R,35.9
+Maine,D,52
+Maine,R,44
+Maine,D,41
+Maine,R,33
+Maine,D,38.8
+Maine,R,39
+Maryland,D,58
+Maryland,R,27
+Maryland,D,60
+Maryland,R,28
+Maryland,D,53
+Maryland,R,31
+Maryland,D,36
+Maryland,R,56
+Maryland,D,38
+Maryland,R,58
+Maryland,D,35.7
+Maryland,R,53.6
+Maryland,D,37
+Maryland,R,52
+Maryland,D,32
+Maryland,R,54
+Maryland,D,36
+Maryland,R,52
+Maryland,D,40
+Maryland,R,49
+Maryland,D,34.3
+Maryland,R,51.8
+Maryland,D,39
+Maryland,R,51
+Maryland,D,31
+Maryland,R,44
+Maryland,D,33
+Maryland,R,50
+Maryland,D,36
+Maryland,R,49
+Maryland,D,33
+Maryland,R,49
+Maryland,D,38
+Maryland,R,47
+Massachusetts,D,61
+Massachusetts,R,33
+Massachusetts,D,59
+Massachusetts,R,32
+Massachusetts,D,56
+Massachusetts,R,33
+Massachusetts,D,53
+Massachusetts,R,23
+Massachusetts,D,51.6
+Massachusetts,R,26.2
+Massachusetts,D,51.6
+Massachusetts,R,33.6
+Massachusetts,D,53.96
+Massachusetts,R,23.33
+Massachusetts,D,54.16
+Massachusetts,R,21.91
+Massachusetts,D,61
+Massachusetts,R,30
+Massachusetts,D,58
+Massachusetts,R,30
+Massachusetts,D,54
+Massachusetts,R,29
+Massachusetts,D,50
+Massachusetts,R,30
+Massachusetts,D,58.9
+Massachusetts,R,31.2
+Massachusetts,D,46.6
+Massachusetts,R,32.4
+Massachusetts,D,54.3
+Massachusetts,R,31.1
+Massachusetts,D,40.6
+Massachusetts,R,33.3
+Massachusetts,D,28.26
+Massachusetts,R,16.59
+Massachusetts,D,54.38
+Massachusetts,R,27.04
+Massachusetts,D,54.69
+Massachusetts,R,24.58
+Massachusetts,D,45.31
+Massachusetts,R,29.34
+Massachusetts,D,43.16
+Massachusetts,R,26.88
+Massachusetts,D,29
+Massachusetts,R,33
+Massachusetts,D,30
+Massachusetts,R,36
+Massachusetts,D,26
+Massachusetts,R,21
+Massachusetts,D,27
+Massachusetts,R,33
+Massachusetts,D,28
+Massachusetts,R,34
+Massachusetts,D,11
+Massachusetts,R,35
+Massachusetts,D,11
+Massachusetts,R,36
+Massachusetts,D,16
+Massachusetts,R,35
+Massachusetts,D,16
+Massachusetts,R,36
+Massachusetts,D,12
+Massachusetts,R,33
+Massachusetts,D,12
+Massachusetts,R,34
+Massachusetts,D,9
+Massachusetts,R,36
+Massachusetts,D,9
+Massachusetts,R,37
+Massachusetts,D,40
+Massachusetts,R,18
+Massachusetts,D,38
+Massachusetts,R,19
+Massachusetts,D,15
+Massachusetts,R,21
+Massachusetts,D,16
+Massachusetts,R,22
+Massachusetts,D,19
+Massachusetts,R,21
+Massachusetts,D,19
+Massachusetts,R,23
+Massachusetts,D,17
+Massachusetts,R,21
+Massachusetts,D,17
+Massachusetts,R,22
+Massachusetts,D,14
+Massachusetts,R,21
+Massachusetts,D,14
+Massachusetts,R,22
+Massachusetts,D,27
+Massachusetts,R,30
+Massachusetts,D,28
+Massachusetts,R,31
+Massachusetts,D,25
+Massachusetts,R,35
+Massachusetts,D,27
+Massachusetts,R,37
+Massachusetts,D,11
+Massachusetts,R,30
+Massachusetts,D,12
+Massachusetts,R,31
+Massachusetts,D,14
+Massachusetts,R,30
+Massachusetts,D,14
+Massachusetts,R,31
+Massachusetts,D,16
+Massachusetts,R,30
+Massachusetts,D,17
+Massachusetts,R,31
+Massachusetts,D,25
+Massachusetts,R,68
+Massachusetts,D,26
+Massachusetts,R,65.4
+Massachusetts,D,27
+Massachusetts,R,65
+Massachusetts,D,25
+Massachusetts,R,64
+Massachusetts,D,26
+Massachusetts,R,65
+Massachusetts,D,27
+Massachusetts,R,66
+Massachusetts,D,24
+Massachusetts,R,68
+Massachusetts,D,27.8
+Massachusetts,R,55.4
+Massachusetts,D,22.4
+Massachusetts,R,52
+Massachusetts,D,20
+Massachusetts,R,60
+Massachusetts,D,21
+Massachusetts,R,60
+Massachusetts,D,19
+Massachusetts,R,59
+Massachusetts,D,22
+Massachusetts,R,55
+Michigan,D,48.2
+Michigan,R,48.5
+Michigan,D,50.2
+Michigan,R,46.5
+Michigan,D,49
+Michigan,R,47
+Michigan,D,49.9
+Michigan,R,45.5
+Michigan,D,54
+Michigan,R,43
+Michigan,D,50.9
+Michigan,R,45.8
+Michigan,D,50.9
+Michigan,R,44.5
+Michigan,D,44.6
+Michigan,R,44.8
+Michigan,D,48.5
+Michigan,R,47.2
+Michigan,D,48
+Michigan,R,41
+Michigan,D,51
+Michigan,R,44
+Michigan,D,51.7
+Michigan,R,43.1
+Michigan,D,50.5
+Michigan,R,44.3
+Michigan,D,50.6
+Michigan,R,44.5
+Michigan,D,49.8
+Michigan,R,44.2
+Michigan,D,48.4
+Michigan,R,47.9
+Michigan,D,49.8
+Michigan,R,43.5
+Michigan,D,49
+Michigan,R,47
+Michigan,D,49.4
+Michigan,R,43.6
+Michigan,D,55
+Michigan,R,41
+Michigan,D,52
+Michigan,R,46
+Michigan,D,48.7
+Michigan,R,43.6
+Michigan,D,49.2
+Michigan,R,43.8
+Michigan,D,47.1
+Michigan,R,47.9
+Michigan,D,44.4
+Michigan,R,43.9
+Michigan,D,49
+Michigan,R,38
+Michigan,D,53
+Michigan,R,47
+Michigan,D,49.5
+Michigan,R,32.2
+Michigan,D,50.9
+Michigan,R,45.1
+Michigan,D,55
+Michigan,R,39
+Michigan,D,51
+Michigan,R,40
+Michigan,D,48
+Michigan,R,35
+Michigan,D,49.4
+Michigan,R,45.3
+Michigan,D,50
+Michigan,R,39
+Michigan,D,50.9
+Michigan,R,38.7
+Michigan,D,51
+Michigan,R,46
+Michigan,D,49.6
+Michigan,R,41.3
+Michigan,D,50.7
+Michigan,R,40.3
+Michigan,D,51.8
+Michigan,R,40
+Michigan,D,52
+Michigan,R,38.2
+Michigan,D,52.3
+Michigan,R,37.3
+Michigan,D,58
+Michigan,R,21
+Michigan,D,57
+Michigan,R,23
+Michigan,D,58
+Michigan,R,19
+Michigan,D,58
+Michigan,R,24
+Michigan,D,58
+Michigan,R,22
+Michigan,D,44.3
+Michigan,R,43.7
+Michigan,D,46
+Michigan,R,41
+Michigan,D,48.6
+Michigan,R,39.1
+Michigan,D,49.6
+Michigan,R,33.2
+Michigan,D,49.6
+Michigan,R,33
+Michigan,D,50.3
+Michigan,R,31
+Michigan,D,46
+Michigan,R,46
+Michigan,D,46.6
+Michigan,R,46
+Michigan,D,44.4
+Michigan,R,50.4
+Michigan,D,45
+Michigan,R,44
+Michigan,D,38
+Michigan,R,45
+Michigan,D,50
+Michigan,R,45
+Michigan,D,48
+Michigan,R,42
+Michigan,D,49
+Michigan,R,39
+Michigan,D,46
+Michigan,R,45
+Michigan,D,48.4
+Michigan,R,40.6
+Michigan,D,54
+Michigan,R,40
+Michigan,D,51
+Michigan,R,43
+Michigan,D,47
+Michigan,R,43
+Michigan,D,50
+Michigan,R,37.5
+Michigan,D,51.7
+Michigan,R,41.3
+Michigan,D,48
+Michigan,R,43
+Michigan,D,48
+Michigan,R,44
+Michigan,D,46
+Michigan,R,41
+Michigan,D,47
+Michigan,R,39
+Michigan,D,47
+Michigan,R,36
+Michigan,D,48
+Michigan,R,38
+Michigan,D,50
+Michigan,R,36
+Michigan,D,46
+Michigan,R,36
+Michigan,D,45.7
+Michigan,R,38.2
+Michigan,D,46.8
+Michigan,R,35.2
+Michigan,D,49
+Michigan,R,37
+Michigan,D,45
+Michigan,R,37
+Michigan,D,52.2
+Michigan,R,38.6
+Michigan,D,44
+Michigan,R,31
+Michigan,D,50
+Michigan,R,41
+Michigan,D,48
+Michigan,R,38
+Michigan,D,45
+Michigan,R,38
+Michigan,D,49
+Michigan,R,39
+Michigan,D,49.8
+Michigan,R,36.1
+Michigan,D,52
+Michigan,R,37
+Michigan,D,45
+Michigan,R,36
+Michigan,D,43.1
+Michigan,R,35.8
+Michigan,D,47
+Michigan,R,38
+Michigan,D,42
+Michigan,R,37
+Michigan,D,40
+Michigan,R,39
+Michigan,D,43
+Michigan,R,38
+Michigan,D,40.3
+Michigan,R,33.3
+Michigan,D,40.8
+Michigan,R,34.9
+Michigan,D,35
+Michigan,R,38
+Michigan,D,41
+Michigan,R,40
+Michigan,D,37
+Michigan,R,37
+Minnesota,D,51
+Minnesota,R,43
+Minnesota,D,52
+Minnesota,R,31
+Minnesota,D,45.8
+Minnesota,R,46.3
+Minnesota,D,47
+Minnesota,R,42
+Minnesota,D,50
+Minnesota,R,40
+Minnesota,D,47.6
+Minnesota,R,44.2
+Minnesota,D,47.7
+Minnesota,R,45
+Minnesota,D,48
+Minnesota,R,41
+Minnesota,D,51
+Minnesota,R,33
+Minnesota,D,53
+Minnesota,R,36
+Minnesota,D,49.8
+Minnesota,R,45.6
+Minnesota,D,42
+Minnesota,R,40
+Minnesota,D,43
+Minnesota,R,36
+Minnesota,D,47
+Minnesota,R,37
+Minnesota,D,44
+Minnesota,R,39
+Minnesota,D,45
+Minnesota,R,35
+Minnesota,D,44
+Minnesota,R,34
+Minnesota,D,46
+Minnesota,R,34
+Minnesota,D,42
+Minnesota,R,37
+Minnesota,D,45
+Minnesota,R,37
+Minnesota,D,43
+Minnesota,R,40
+Minnesota,D,44
+Minnesota,R,35
+Minnesota,D,45
+Minnesota,R,34
+Minnesota,D,43
+Minnesota,R,35
+Minnesota,D,47
+Minnesota,R,34
+Minnesota,D,47
+Minnesota,R,35
+Minnesota,D,48
+Minnesota,R,36
+Minnesota,D,47
+Minnesota,R,36
+Minnesota,D,48
+Minnesota,R,31
+Minnesota,D,47
+Minnesota,R,34
+Minnesota,D,53
+Minnesota,R,41
+Minnesota,D,48
+Minnesota,R,42
+Minnesota,D,49
+Minnesota,R,41
+Minnesota,D,50
+Minnesota,R,34
+Minnesota,D,45
+Minnesota,R,39
+Minnesota,D,47
+Minnesota,R,44
+Minnesota,D,55
+Minnesota,R,38
+Minnesota,D,51
+Minnesota,R,36
+Minnesota,D,53
+Minnesota,R,39
+Minnesota,D,49
+Minnesota,R,37
+Minnesota,D,45
+Minnesota,R,36
+Minnesota,D,47
+Minnesota,R,40
+Minnesota,D,45.8
+Minnesota,R,40.8
+Minnesota,D,40.3
+Minnesota,R,32.8
+Mississippi,D,40
+Mississippi,R,47
+Mississippi,D,39
+Mississippi,R,42
+Mississippi,D,46
+Mississippi,R,47
+Mississippi,D,43
+Mississippi,R,46
+Mississippi,D,46
+Mississippi,R,42
+Mississippi,D,45
+Mississippi,R,42
+Mississippi,D,43
+Mississippi,R,42
+Mississippi,D,42
+Mississippi,R,51
+Mississippi,D,41
+Mississippi,R,53
+Mississippi,D,35.78
+Mississippi,R,48
+Mississippi,D,35.99
+Mississippi,R,43.29
+Mississippi,D,45
+Mississippi,R,40
+Mississippi,D,44
+Mississippi,R,42
+Mississippi,D,40
+Mississippi,R,38
+Mississippi,D,36
+Mississippi,R,51
+Mississippi,D,44
+Mississippi,R,39
+Mississippi,D,37.5
+Mississippi,R,44.7
+Mississippi,D,43
+Mississippi,R,37
+Missouri,D,44
+Missouri,R,50
+Missouri,D,41.5
+Missouri,R,48.1
+Missouri,D,43
+Missouri,R,51
+Missouri,D,43.7
+Missouri,R,49.7
+Missouri,D,48
+Missouri,R,50
+Missouri,D,44
+Missouri,R,51
+Missouri,D,43
+Missouri,R,52
+Missouri,D,41
+Missouri,R,54
+Missouri,D,36.3
+Missouri,R,51
+Missouri,D,43
+Missouri,R,50
+Missouri,D,38.8
+Missouri,R,41
+Missouri,D,40
+Missouri,R,47
+Missouri,D,41
+Missouri,R,50
+Missouri,D,39
+Missouri,R,47
+Missouri,D,39
+Missouri,R,52
+Missouri,D,39
+Missouri,R,52
+Missouri,D,36
+Missouri,R,54
+Missouri,D,45
+Missouri,R,44
+Missouri,D,36.1
+Missouri,R,50.5
+Missouri,D,35.3
+Missouri,R,50.5
+Missouri,D,36
+Missouri,R,45
+Missouri,D,34.3
+Missouri,R,50.1
+Missouri,D,41
+Missouri,R,53
+Missouri,D,35.9
+Missouri,R,45
+Missouri,D,39
+Missouri,R,50
+Missouri,D,37
+Missouri,R,50
+Missouri,D,40
+Missouri,R,51
+Missouri,D,32
+Missouri,R,52
+Missouri,D,36
+Missouri,R,51
+Montana,D,44
+Montana,R,48
+Montana,D,45
+Montana,R,45
+Montana,D,44
+Montana,R,48
+Montana,D,41
+Montana,R,48
+Montana,D,45
+Montana,R,48
+Montana,D,41.3
+Montana,R,53.6
+Montana,D,42
+Montana,R,47
+Montana,D,39
+Montana,R,45
+Montana,D,46
+Montana,R,47
+Montana,D,41.06
+Montana,R,49.55
+Montana,D,44
+Montana,R,47
+Montana,D,42
+Montana,R,46
+Montana,D,36.2
+Montana,R,45.5
+Nebraska,D,41
+Nebraska,R,48
+Nevada,D,46.1
+Nevada,R,48.6
+Nevada,D,47
+Nevada,R,49
+Nevada,D,46
+Nevada,R,48
+Nevada,D,43.5
+Nevada,R,48.7
+Nevada,D,43
+Nevada,R,45
+Nevada,D,42
+Nevada,R,47
+Nevada,D,46
+Nevada,R,50
+Nevada,D,42.8
+Nevada,R,43.2
+Nevada,D,45
+Nevada,R,41
+Nevada,D,43.4
+Nevada,R,44.6
+Nevada,D,44
+Nevada,R,44
+Nevada,D,45
+Nevada,R,48
+Nevada,D,44.1
+Nevada,R,50.9
+Nevada,D,45
+Nevada,R,49
+Nevada,D,50
+Nevada,R,45.4
+Nevada,D,42.8
+Nevada,R,48.5
+Nevada,D,48
+Nevada,R,48
+Nevada,D,47
+Nevada,R,48
+Nevada,D,43
+Nevada,R,41
+Nevada,D,46
+Nevada,R,45
+Nevada,D,47
+Nevada,R,45
+Nevada,D,42
+Nevada,R,47
+Nevada,D,43
+Nevada,R,43.6
+Nevada,D,46
+Nevada,R,48
+Nevada,D,46
+Nevada,R,46
+Nevada,D,42
+Nevada,R,45
+Nevada,D,44.5
+Nevada,R,47.5
+Nevada,D,45
+Nevada,R,45
+Nevada,D,40.4
+Nevada,R,40.2
+Nevada,D,41
+Nevada,R,38
+Nevada,D,46
+Nevada,R,48
+Nevada,D,43.6
+Nevada,R,46.2
+Nevada,D,43.2
+Nevada,R,40.2
+Nevada,D,49
+Nevada,R,39
+Nevada,D,48
+Nevada,R,46
+Nevada,D,43.6
+Nevada,R,40.4
+Nevada,D,46
+Nevada,R,44
+Nevada,D,46
+Nevada,R,43
+Nevada,D,47
+Nevada,R,48
+Nevada,D,43
+Nevada,R,31
+Nevada,D,44
+Nevada,R,21
+Nevada,D,43
+Nevada,R,17
+Nevada,D,44
+Nevada,R,35
+Nevada,D,46
+Nevada,R,33
+Nevada,D,46
+Nevada,R,33
+Nevada,D,45
+Nevada,R,31
+Nevada,D,37.2
+Nevada,R,39.2
+Nevada,D,39.4
+Nevada,R,38.8
+Nevada,D,41.2
+Nevada,R,28.8
+Nevada,D,37.4
+Nevada,R,39.8
+Nevada,D,39.2
+Nevada,R,35.4
+Nevada,D,40
+Nevada,R,43.2
+Nevada,D,52.2
+Nevada,R,47.8
+Nevada,D,54.4
+Nevada,R,45.6
+Nevada,D,47
+Nevada,R,45
+Nevada,D,47
+Nevada,R,44
+Nevada,D,40.1
+Nevada,R,46.8
+Nevada,D,41
+Nevada,R,51
+Nevada,D,43
+Nevada,R,49
+Nevada,D,45.8
+Nevada,R,43.3
+Nevada,D,44.9
+Nevada,R,44.4
+Nevada,D,44.5
+Nevada,R,44.3
+Nevada,D,44.2
+Nevada,R,44.8
+Nevada,D,47.5
+Nevada,R,46.5
+Nevada,D,43.7
+Nevada,R,45.1
+Nevada,D,43.3
+Nevada,R,46.7
+Nevada,D,43
+Nevada,R,45.8
+Nevada,D,44.9
+Nevada,R,47
+Nevada,D,45
+Nevada,R,44
+Nevada,D,45.1
+Nevada,R,44.9
+Nevada,D,46
+Nevada,R,44
+Nevada,D,45.1
+Nevada,R,43
+Nevada,D,44
+Nevada,R,40
+Nevada,D,46
+Nevada,R,45
+Nevada,D,46
+Nevada,R,44
+Nevada,D,41.2
+Nevada,R,46
+Nevada,D,35
+Nevada,R,34
+Nevada,D,52
+Nevada,R,48
+Nevada,D,40.7
+Nevada,R,45.9
+Nevada,D,45
+Nevada,R,46
+Nevada,D,47.47
+Nevada,R,39.54
+Nevada,D,45
+Nevada,R,44
+Nevada,D,45
+Nevada,R,46
+Nevada,D,40
+Nevada,R,41
+Nevada,D,40
+Nevada,R,44
+Nevada,D,40
+Nevada,R,46
+Nevada,D,41
+Nevada,R,38
+Nevada,D,45
+Nevada,R,41
+Nevada,D,40
+Nevada,R,43
+Nevada,D,34
+Nevada,R,32
+Nevada,D,50
+Nevada,R,38
+Nevada,D,37.4
+Nevada,R,35.4
+Nevada,D,41
+Nevada,R,41.6
+Nevada,D,40
+Nevada,R,45
+Nevada,D,41
+Nevada,R,43
+Nevada,D,43
+Nevada,R,37
+Nevada,D,37
+Nevada,R,46
+New Hampshire,D,35.8
+New Hampshire,R,58
+New Hampshire,D,43
+New Hampshire,R,55
+New Hampshire,D,40.4
+New Hampshire,R,55.7
+New Hampshire,D,42.5
+New Hampshire,R,53.1
+New Hampshire,D,40
+New Hampshire,R,58
+New Hampshire,D,37.3
+New Hampshire,R,58.1
+New Hampshire,D,37
+New Hampshire,R,55
+New Hampshire,D,34
+New Hampshire,R,52
+New Hampshire,D,35
+New Hampshire,R,51
+New Hampshire,D,37
+New Hampshire,R,53.9
+New Hampshire,D,40.9
+New Hampshire,R,53.8
+New Hampshire,D,40
+New Hampshire,R,57
+New Hampshire,D,40
+New Hampshire,R,53
+New Hampshire,D,41
+New Hampshire,R,55
+New Hampshire,D,39
+New Hampshire,R,52
+New Hampshire,D,34
+New Hampshire,R,50
+New Hampshire,D,35.6
+New Hampshire,R,52.6
+New Hampshire,D,38
+New Hampshire,R,53
+New Hampshire,D,37
+New Hampshire,R,55
+New Hampshire,D,36.8
+New Hampshire,R,52
+New Hampshire,D,29
+New Hampshire,R,48
+New Hampshire,D,33
+New Hampshire,R,43
+New Hampshire,D,29
+New Hampshire,R,55
+New Hampshire,D,24.1
+New Hampshire,R,61.6
+New Hampshire,D,24.1
+New Hampshire,R,72.5
+New Hampshire,D,24
+New Hampshire,R,51
+New Hampshire,D,46
+New Hampshire,R,51
+New Hampshire,D,36
+New Hampshire,R,60
+New Hampshire,D,35
+New Hampshire,R,60
+New Hampshire,D,36
+New Hampshire,R,59
+New Hampshire,D,37
+New Hampshire,R,62
+New Hampshire,D,31
+New Hampshire,R,55.2
+New Hampshire,D,35
+New Hampshire,R,58
+New Hampshire,D,40
+New Hampshire,R,54.8
+New Hampshire,D,44
+New Hampshire,R,52
+New Hampshire,D,37
+New Hampshire,R,55
+New Hampshire,D,34
+New Hampshire,R,60
+New Hampshire,D,33
+New Hampshire,R,57
+New Hampshire,D,32
+New Hampshire,R,58
+New Hampshire,D,28
+New Hampshire,R,59
+New Hampshire,D,29
+New Hampshire,R,58
+New Hampshire,D,23
+New Hampshire,R,62
+New Hampshire,D,22
+New Hampshire,R,62
+New Hampshire,D,20
+New Hampshire,R,59
+New Hampshire,D,21
+New Hampshire,R,61
+New Hampshire,D,20
+New Hampshire,R,61
+New Hampshire,D,27
+New Hampshire,R,56
+New Hampshire,D,29
+New Hampshire,R,54
+New Hampshire,D,37.3
+New Hampshire,R,52.8
+New Hampshire,D,46
+New Hampshire,R,46
+New Hampshire,D,43.3
+New Hampshire,R,50.6
+New Hampshire,D,46
+New Hampshire,R,47
+New Hampshire,D,39
+New Hampshire,R,50
+New Hampshire,D,38.6
+New Hampshire,R,48.6
+New Hampshire,D,35.4
+New Hampshire,R,50.5
+New Hampshire,D,44
+New Hampshire,R,49
+New Hampshire,D,32
+New Hampshire,R,48
+New Hampshire,D,26.63
+New Hampshire,R,47.63
+New Hampshire,D,24
+New Hampshire,R,51
+New Jersey,D,50
+New Jersey,R,44
+New Jersey,D,49.4
+New Jersey,R,45.2
+New Jersey,D,53
+New Jersey,R,44
+New Jersey,D,50
+New Jersey,R,42
+New Jersey,D,50
+New Jersey,R,41
+New Jersey,D,50
+New Jersey,R,39
+New Jersey,D,52.2
+New Jersey,R,47.8
+New Jersey,D,50
+New Jersey,R,41
+New Jersey,D,50
+New Jersey,R,41
+New Jersey,D,51
+New Jersey,R,38
+New Jersey,D,45
+New Jersey,R,42
+New Jersey,D,43
+New Jersey,R,41
+New Jersey,D,46
+New Jersey,R,45
+New Jersey,D,52
+New Jersey,R,36
+New Jersey,D,51
+New Jersey,R,40
+New Jersey,D,55
+New Jersey,R,36
+New Jersey,D,49
+New Jersey,R,37
+New Jersey,D,48
+New Jersey,R,33
+New Jersey,D,52
+New Jersey,R,24
+New Jersey,D,52
+New Jersey,R,26
+New Jersey,D,47
+New Jersey,R,36
+New Jersey,D,47
+New Jersey,R,30
+New Mexico,D,49.6
+New Mexico,R,48
+New Mexico,D,50
+New Mexico,R,42
+New Mexico,D,46
+New Mexico,R,39
+New Mexico,D,45.5
+New Mexico,R,46.6
+New Mexico,D,48
+New Mexico,R,40
+New Mexico,D,53
+New Mexico,R,37
+New Mexico,D,46.2
+New Mexico,R,44.4
+New Mexico,D,48
+New Mexico,R,36
+New Mexico,D,48.3
+New Mexico,R,43.4
+New Mexico,D,47
+New Mexico,R,40
+New Mexico,D,48
+New Mexico,R,44
+New Mexico,D,45
+New Mexico,R,42
+New Mexico,D,45
+New Mexico,R,46
+New Mexico,D,47
+New Mexico,R,37
+New Mexico,D,48
+New Mexico,R,36
+New Mexico,D,48
+New Mexico,R,32
+New Mexico,D,47
+New Mexico,R,43
+New Mexico,D,48
+New Mexico,R,36
+New Mexico,D,40.4
+New Mexico,R,38.7
+New Mexico,D,53
+New Mexico,R,41
+New Mexico,D,53
+New Mexico,R,43
+New Mexico,D,50.6
+New Mexico,R,45.5
+New Mexico,D,52.7
+New Mexico,R,43.7
+New Mexico,D,53
+New Mexico,R,44
+New Mexico,D,55
+New Mexico,R,45
+New Mexico,D,43.58
+New Mexico,R,40.4
+New Mexico,D,50
+New Mexico,R,43
+New Mexico,D,52
+New Mexico,R,42
+New Mexico,D,52
+New Mexico,R,44
+New Mexico,D,41.5
+New Mexico,R,40
+New Mexico,D,51
+New Mexico,R,38
+New Mexico,D,50.5
+New Mexico,R,42.1
+New Mexico,D,47
+New Mexico,R,45
+New Mexico,D,47
+New Mexico,R,43
+New York,D,55
+New York,R,45
+New York,D,55
+New York,R,45
+New York,D,49.1
+New York,R,44
+New York,D,53.6
+New York,R,44.9
+New York,D,47.6
+New York,R,48.4
+New York,D,46
+New York,R,45
+New York,D,54
+New York,R,42
+New York,D,48
+New York,R,42
+New York,D,54
+New York,R,41
+New York,D,54
+New York,R,43
+New York,D,51.6
+New York,R,44.4
+New York,D,52
+New York,R,37
+New York,D,45
+New York,R,46
+New York,D,47
+New York,R,41
+New York,D,50
+New York,R,46
+New York,D,52
+New York,R,41
+New York,D,50
+New York,R,44
+New York,D,51
+New York,R,41
+New York,D,44.5
+New York,R,42.6
+New York,D,50.7
+New York,R,44.9
+New York,D,54
+New York,R,37
+New York,D,52
+New York,R,39
+New York,D,54
+New York,R,39
+New York,D,49
+New York,R,43
+New York,D,50.2
+New York,R,34.9
+New York,D,47.8
+New York,R,43.4
+New York,D,55
+New York,R,31
+New York,D,48
+New York,R,40
+New York,D,50.6
+New York,R,34.6
+New York,D,53
+New York,R,39
+New York,D,52
+New York,R,28
+New York,D,55
+New York,R,28
+New York,D,54
+New York,R,29
+New York,D,56
+New York,R,30
+New York,D,53.9
+New York,R,36.2
+New York,D,48.1
+New York,R,35.7
+New York,D,54.4
+New York,R,35.1
+New York,D,47.7
+New York,R,35.6
+New York,D,54.2
+New York,R,35
+New York,D,46.7
+New York,R,36.9
+New York,D,48.5
+New York,R,36.3
+New York,D,53.2
+New York,R,35.6
+New York,D,49.5
+New York,R,33.9
+New York,D,45.3
+New York,R,37
+New York,D,52.3
+New York,R,31.5
+New York,D,51.3
+New York,R,32.1
+New York,D,49
+New York,R,36.3
+New York,D,46.7
+New York,R,33
+New York,D,52.3
+New York,R,32.8
+New York,D,43
+New York,R,33.4
+New York,D,50.6
+New York,R,33.7
+New York,D,42.7
+New York,R,36.3
+New York,D,44.5
+New York,R,35.1
+New York,D,51.3
+New York,R,32
+New York,D,45.3
+New York,R,30.8
+New York,D,41.4
+New York,R,33.7
+New York,D,49
+New York,R,33.7
+New York,D,50.1
+New York,R,30.1
+New York,D,51
+New York,R,36
+New York,D,44
+New York,R,41
+New York,D,35
+New York,R,31
+New York,D,31
+New York,R,37
+New York,D,44
+New York,R,45.5
+New York,D,50.2
+New York,R,35.3
+New York,D,42.9
+New York,R,34.1
+New York,D,52
+New York,R,32.8
+New York,D,43.4
+New York,R,34.9
+New York,D,49.4
+New York,R,35
+New York,D,42.6
+New York,R,35.5
+New York,D,45.5
+New York,R,32.8
+New York,D,50.1
+New York,R,33.7
+New York,D,43.8
+New York,R,31.7
+New York,D,42.2
+New York,R,33.8
+New York,D,47
+New York,R,32.9
+New York,D,43.8
+New York,R,27.1
+New York,D,44.5
+New York,R,26.6
+New York,D,33.9
+New York,R,30.5
+New York,D,34
+New York,R,30.9
+New York,D,51.1
+New York,R,32.5
+New York,D,49.8
+New York,R,28.9
+New York,D,51
+New York,R,39.3
+New York,D,50
+New York,R,42.2
+New York,D,54
+New York,R,37
+New York,D,49
+New York,R,36
+New York,D,58
+New York,R,35
+New York,D,48
+New York,R,25
+New York,D,56
+New York,R,38
+New York,D,50
+New York,R,28
+New York,D,31
+New York,R,30
+New York,D,46
+New York,R,43
+New York,D,57
+New York,R,31
+New York,D,43
+New York,R,23
+New York,D,52
+New York,R,32
+New York,D,50
+New York,R,27
+New York,D,54
+New York,R,30
+New York,D,56
+New York,R,37
+New York,D,43
+New York,R,15
+New York,D,57
+New York,R,26
+New York,D,40
+New York,R,23
+New York,D,57
+New York,R,31
+New York,D,57
+New York,R,29
+New York,D,49
+New York,R,26
+North Carolina,D,54.7
+North Carolina,R,42.2
+North Carolina,D,52
+North Carolina,R,45
+North Carolina,D,54.7
+North Carolina,R,44.8
+North Carolina,D,52
+North Carolina,R,42
+North Carolina,D,51
+North Carolina,R,41
+North Carolina,D,46.84
+North Carolina,R,45.49
+North Carolina,D,54.31
+North Carolina,R,43.34
+North Carolina,D,59
+North Carolina,R,40
+North Carolina,D,59
+North Carolina,R,40
+North Carolina,D,51
+North Carolina,R,43
+North Carolina,D,51
+North Carolina,R,43
+North Carolina,D,51
+North Carolina,R,42
+North Carolina,D,53
+North Carolina,R,41
+North Carolina,D,53
+North Carolina,R,42
+North Carolina,D,52.8
+North Carolina,R,43.8
+North Carolina,D,54
+North Carolina,R,42
+North Carolina,D,52
+North Carolina,R,42
+North Carolina,D,52.1
+North Carolina,R,33.7
+North Carolina,D,55.4
+North Carolina,R,43.3
+North Carolina,D,50.3
+North Carolina,R,45.9
+North Carolina,D,53
+North Carolina,R,46
+North Carolina,D,51
+North Carolina,R,37
+North Carolina,D,52
+North Carolina,R,39
+North Carolina,D,51
+North Carolina,R,44
+North Carolina,D,52
+North Carolina,R,44
+North Carolina,D,51
+North Carolina,R,46
+North Carolina,D,51
+North Carolina,R,37
+North Carolina,D,52
+North Carolina,R,40
+North Carolina,D,54.5
+North Carolina,R,40.5
+North Carolina,D,53
+North Carolina,R,43
+North Carolina,D,54
+North Carolina,R,41
+North Carolina,D,49.6
+North Carolina,R,39.3
+North Carolina,D,46
+North Carolina,R,39
+North Carolina,D,47
+North Carolina,R,42
+North Carolina,D,55
+North Carolina,R,36
+North Carolina,D,50.4
+North Carolina,R,38
+North Carolina,D,49
+North Carolina,R,42
+North Carolina,D,53
+North Carolina,R,42
+North Carolina,D,53
+North Carolina,R,44
+North Carolina,D,48
+North Carolina,R,38
+North Carolina,D,54
+North Carolina,R,35
+North Carolina,D,51
+North Carolina,R,40
+North Carolina,D,51
+North Carolina,R,42
+North Carolina,D,51
+North Carolina,R,42
+North Carolina,D,50.1
+North Carolina,R,40.2
+North Carolina,D,51
+North Carolina,R,38
+North Carolina,D,51.5
+North Carolina,R,38.4
+North Carolina,D,49.46
+North Carolina,R,43.48
+North Carolina,D,49
+North Carolina,R,39
+North Carolina,D,53
+North Carolina,R,42
+North Carolina,D,46.1
+North Carolina,R,46.4
+North Carolina,D,58
+North Carolina,R,38
+North Carolina,D,51
+North Carolina,R,37
+North Carolina,D,49
+North Carolina,R,46.4
+North Carolina,D,49.4
+North Carolina,R,38
+North Carolina,D,50
+North Carolina,R,41
+North Carolina,D,50
+North Carolina,R,39
+North Carolina,D,46
+North Carolina,R,46
+North Carolina,D,52
+North Carolina,R,31
+North Carolina,D,50
+North Carolina,R,39
+North Carolina,D,49
+North Carolina,R,37
+North Carolina,D,47
+North Carolina,R,35
+North Carolina,D,55.4
+North Carolina,R,37.4
+North Carolina,D,50.8
+North Carolina,R,36.1
+North Carolina,D,53
+North Carolina,R,44
+North Carolina,D,52
+North Carolina,R,32.1
+North Carolina,D,57
+North Carolina,R,30
+North Carolina,D,53
+North Carolina,R,40
+North Carolina,D,55
+North Carolina,R,36
+North Carolina,D,50
+North Carolina,R,36
+North Carolina,D,50
+North Carolina,R,33
+North Carolina,D,49
+North Carolina,R,40.6
+North Carolina,D,49.4
+North Carolina,R,32.7
+North Carolina,D,46
+North Carolina,R,36
+North Carolina,D,44
+North Carolina,R,38
+North Carolina,D,46
+North Carolina,R,27
+North Carolina,D,45.5
+North Carolina,R,32.9
+North Carolina,D,48
+North Carolina,R,36
+North Carolina,D,47
+North Carolina,R,38
+North Carolina,D,48
+North Carolina,R,30
+North Carolina,D,46
+North Carolina,R,38
+North Carolina,D,45
+North Carolina,R,41
+North Carolina,D,46
+North Carolina,R,39
+North Carolina,D,47
+North Carolina,R,37
+North Carolina,D,52.3
+North Carolina,R,37.9
+North Carolina,D,40
+North Carolina,R,44
+North Carolina,D,48
+North Carolina,R,34
+North Carolina,D,47
+North Carolina,R,35
+North Carolina,D,45
+North Carolina,R,41
+North Carolina,D,46
+North Carolina,R,32
+North Carolina,D,46
+North Carolina,R,37
+North Dakota,D,24
+North Dakota,R,56
+North Dakota,D,33
+North Dakota,R,62
+Ohio,D,39
+Ohio,R,53
+Ohio,D,39
+Ohio,R,61
+Ohio,D,30
+Ohio,R,57
+Ohio,D,32
+Ohio,R,62
+Ohio,D,34
+Ohio,R,58.5
+Ohio,D,38
+Ohio,R,62
+Ohio,D,42
+Ohio,R,58
+Ohio,D,36.9
+Ohio,R,55.8
+Ohio,D,35
+Ohio,R,58
+Ohio,D,34
+Ohio,R,54.8
+Ohio,D,36.2
+Ohio,R,56.1
+Ohio,D,35.5
+Ohio,R,56
+Ohio,D,34.9
+Ohio,R,55.9
+Ohio,D,36
+Ohio,R,52
+Ohio,D,40
+Ohio,R,53
+Ohio,D,35.4
+Ohio,R,55.9
+Ohio,D,37.3
+Ohio,R,54.9
+Ohio,D,40
+Ohio,R,56.6
+Ohio,D,37
+Ohio,R,54.6
+Ohio,D,40
+Ohio,R,53
+Ohio,D,37
+Ohio,R,54.9
+Ohio,D,34
+Ohio,R,58
+Ohio,D,35.2
+Ohio,R,56.3
+Ohio,D,36
+Ohio,R,47
+Ohio,D,37
+Ohio,R,53
+Ohio,D,34.3
+Ohio,R,55.7
+Ohio,D,38
+Ohio,R,56
+Ohio,D,29.08
+Ohio,R,60.04
+Ohio,D,35.3
+Ohio,R,54.4
+Ohio,D,37.4
+Ohio,R,54.8
+Ohio,D,38
+Ohio,R,57
+Ohio,D,34.6
+Ohio,R,56.9
+Ohio,D,36
+Ohio,R,49.6
+Ohio,D,33
+Ohio,R,51
+Ohio,D,38
+Ohio,R,52
+Ohio,D,32
+Ohio,R,55
+Ohio,D,37
+Ohio,R,55
+Ohio,D,38.9
+Ohio,R,56.7
+Ohio,D,33.2
+Ohio,R,49.9
+Ohio,D,41
+Ohio,R,44
+Ohio,D,36.5
+Ohio,R,49
+Ohio,D,39.2
+Ohio,R,53.8
+Ohio,D,39
+Ohio,R,45
+Ohio,D,35
+Ohio,R,54
+Ohio,D,31
+Ohio,R,52
+Ohio,D,37
+Ohio,R,53
+Ohio,D,37.9
+Ohio,R,53.8
+Ohio,D,32.9
+Ohio,R,48.7
+Ohio,D,43
+Ohio,R,44
+Ohio,D,29.8
+Ohio,R,45.4
+Ohio,D,45
+Ohio,R,55
+Ohio,D,48
+Ohio,R,52
+Ohio,D,49
+Ohio,R,51
+Ohio,D,49
+Ohio,R,51
+Ohio,D,25
+Ohio,R,44
+Ohio,D,24
+Ohio,R,44
+Ohio,D,27
+Ohio,R,46
+Ohio,D,25
+Ohio,R,47
+Ohio,D,48
+Ohio,R,43
+Ohio,D,45.8
+Ohio,R,42.2
+Ohio,D,44
+Ohio,R,44
+Ohio,D,43.2
+Ohio,R,43.4
+Ohio,D,48
+Ohio,R,43
+Ohio,D,49.3
+Ohio,R,45.8
+Ohio,D,38.8
+Ohio,R,39.4
+Ohio,D,42.2
+Ohio,R,41.1
+Ohio,D,46.4
+Ohio,R,40.4
+Ohio,D,37.1
+Ohio,R,39.7
+Ohio,D,39.2
+Ohio,R,42.2
+Ohio,D,36
+Ohio,R,37
+Ohio,D,43.9
+Ohio,R,48.6
+Ohio,D,47
+Ohio,R,47
+Ohio,D,47
+Ohio,R,47
+Ohio,D,43
+Ohio,R,42
+Ohio,D,44
+Ohio,R,44
+Ohio,D,43.6
+Ohio,R,45.1
+Ohio,D,34
+Ohio,R,40
+Ohio,D,37
+Ohio,R,42
+Ohio,D,38
+Ohio,R,39
+Ohio,D,42.8
+Ohio,R,44.9
+Ohio,D,42.8
+Ohio,R,43
+Ohio,D,38.08
+Ohio,R,42.15
+Ohio,D,42
+Ohio,R,46
+Ohio,D,42
+Ohio,R,40
+Ohio,D,43
+Ohio,R,36
+Ohio,D,38
+Ohio,R,45
+Ohio,D,33.5
+Ohio,R,40
+Ohio,D,44
+Ohio,R,39
+Ohio,D,47
+Ohio,R,38
+Ohio,D,39
+Ohio,R,47
+Ohio,D,44
+Ohio,R,45
+Ohio,D,28
+Ohio,R,49
+Ohio,D,31
+Ohio,R,55
+Oklahoma,D,46
+Oklahoma,R,49
+Oklahoma,D,45.3
+Oklahoma,R,41.9
+Oklahoma,D,39.7
+Oklahoma,R,48.2
+Oklahoma,D,39
+Oklahoma,R,52
+Oklahoma,D,44
+Oklahoma,R,45
+Oklahoma,D,42.6
+Oklahoma,R,52.2
+Oklahoma,D,48
+Oklahoma,R,45
+Oklahoma,D,48.2
+Oklahoma,R,44.9
+Oklahoma,D,46
+Oklahoma,R,45
+Oklahoma,D,49
+Oklahoma,R,42
+Oklahoma,D,46.8
+Oklahoma,R,43
+Oklahoma,D,33
+Oklahoma,R,48
+Oklahoma,D,44
+Oklahoma,R,47
+Oklahoma,D,40.2
+Oklahoma,R,39.19
+Oklahoma,D,42.7
+Oklahoma,R,43.7
+Oklahoma,D,36
+Oklahoma,R,55
+Oklahoma,D,34
+Oklahoma,R,42
+Oklahoma,D,29
+Oklahoma,R,47
+Oklahoma,D,30
+Oklahoma,R,44
+Oklahoma,D,27
+Oklahoma,R,49
+Oklahoma,D,32
+Oklahoma,R,47
+Oklahoma,D,33
+Oklahoma,R,49
+Oklahoma,D,44.1
+Oklahoma,R,47
+Oklahoma,D,41.6
+Oklahoma,R,46.4
+Oklahoma,D,44
+Oklahoma,R,51
+Oklahoma,D,40
+Oklahoma,R,46
+Oklahoma,D,43.4
+Oklahoma,R,46.9
+Oklahoma,D,44.2
+Oklahoma,R,46.6
+Oklahoma,D,42.4
+Oklahoma,R,40.9
+Oklahoma,D,40.3
+Oklahoma,R,39.2
+Oklahoma,D,31.7
+Oklahoma,R,25
+Oregon,D,48
+Oregon,R,44
+Oregon,D,42.5
+Oregon,R,45.4
+Oregon,D,46
+Oregon,R,40.5
+Oregon,D,45
+Oregon,R,41
+Oregon,D,40
+Oregon,R,38
+Oregon,D,40.4
+Oregon,R,41.7
+Oregon,D,35
+Oregon,R,37
+Oregon,D,42
+Oregon,R,43
+Oregon,D,47
+Oregon,R,39
+Oregon,D,40
+Oregon,R,38
+Oregon,D,38.4
+Oregon,R,43.8
+Oregon,D,33.6
+Oregon,R,36
+Oregon,D,35.1
+Oregon,R,38.6
+Oregon,D,47
+Oregon,R,53
+Oregon,D,31
+Oregon,R,32
+Oregon,D,33
+Oregon,R,35
+Oregon,D,31.5
+Oregon,R,33.4
+Oregon,D,32.1
+Oregon,R,32.8
+Oregon,D,31.4
+Oregon,R,32.4
+Oregon,D,33
+Oregon,R,23
+Oregon,D,27.5
+Oregon,R,29.5
+Oregon,D,45
+Oregon,R,42
+Oregon,D,46.7
+Oregon,R,41.6
+Oregon,D,40
+Oregon,R,35
+Oregon,D,49
+Oregon,R,45
+Oregon,D,41.7
+Oregon,R,40.8
+Oregon,D,46
+Oregon,R,36
+Oregon,D,41
+Oregon,R,43
+Oregon,D,41.9
+Oregon,R,43.1
+Oregon,D,45
+Oregon,R,45
+Oregon,D,46
+Oregon,R,29
+Oregon,D,38.9
+Oregon,R,36.1
+Oregon,D,41
+Oregon,R,40
+Pennsylvania,D,55
+Pennsylvania,R,43
+Pennsylvania,D,52
+Pennsylvania,R,38
+Pennsylvania,D,52
+Pennsylvania,R,46
+Pennsylvania,D,51.5
+Pennsylvania,R,45
+Pennsylvania,D,54
+Pennsylvania,R,46
+Pennsylvania,D,50.9
+Pennsylvania,R,43.2
+Pennsylvania,D,49.7
+Pennsylvania,R,45.4
+Pennsylvania,D,52
+Pennsylvania,R,40
+Pennsylvania,D,54
+Pennsylvania,R,39
+Pennsylvania,D,51.7
+Pennsylvania,R,38.1
+Pennsylvania,D,53.1
+Pennsylvania,R,42.7
+Pennsylvania,D,52.4
+Pennsylvania,R,40.4
+Pennsylvania,D,53
+Pennsylvania,R,37
+Pennsylvania,D,51
+Pennsylvania,R,41
+Pennsylvania,D,54
+Pennsylvania,R,40
+Pennsylvania,D,49.2
+Pennsylvania,R,43.3
+Pennsylvania,D,50.2
+Pennsylvania,R,41.8
+Pennsylvania,D,58
+Pennsylvania,R,34
+Pennsylvania,D,60
+Pennsylvania,R,35
+Pennsylvania,D,53
+Pennsylvania,R,40
+Pennsylvania,D,53.1
+Pennsylvania,R,38.1
+Pennsylvania,D,54
+Pennsylvania,R,45
+Pennsylvania,D,58
+Pennsylvania,R,36
+Pennsylvania,D,54
+Pennsylvania,R,32
+Pennsylvania,D,56
+Pennsylvania,R,33
+Pennsylvania,D,43
+Pennsylvania,R,40
+Pennsylvania,D,50
+Pennsylvania,R,38
+Pennsylvania,D,48.5
+Pennsylvania,R,42.2
+Pennsylvania,D,56
+Pennsylvania,R,39
+Pennsylvania,D,56
+Pennsylvania,R,41
+Pennsylvania,D,48.5
+Pennsylvania,R,46.4
+Pennsylvania,D,50.1
+Pennsylvania,R,44.7
+Pennsylvania,D,53
+Pennsylvania,R,42
+Pennsylvania,D,52.8
+Pennsylvania,R,43.5
+Pennsylvania,D,55
+Pennsylvania,R,34
+Pennsylvania,D,57
+Pennsylvania,R,37
+Pennsylvania,D,48.2
+Pennsylvania,R,36.8
+Pennsylvania,D,50.6
+Pennsylvania,R,40.5
+Pennsylvania,D,51
+Pennsylvania,R,40
+Pennsylvania,D,51
+Pennsylvania,R,37
+Pennsylvania,D,51.9
+Pennsylvania,R,37.1
+Pennsylvania,D,53
+Pennsylvania,R,40
+Pennsylvania,D,45.9
+Pennsylvania,R,42.5
+Pennsylvania,D,53
+Pennsylvania,R,42
+Pennsylvania,D,47.4
+Pennsylvania,R,45.4
+Pennsylvania,D,55
+Pennsylvania,R,44
+Pennsylvania,D,55
+Pennsylvania,R,36
+Pennsylvania,D,47
+Pennsylvania,R,41
+Pennsylvania,D,53
+Pennsylvania,R,32
+Pennsylvania,D,56
+Pennsylvania,R,35
+Pennsylvania,D,47.2
+Pennsylvania,R,44.2
+Pennsylvania,D,44
+Pennsylvania,R,33
+Pennsylvania,D,48.6
+Pennsylvania,R,44.7
+Pennsylvania,D,50
+Pennsylvania,R,35
+Pennsylvania,D,50
+Pennsylvania,R,40
+Pennsylvania,D,50.7
+Pennsylvania,R,39.4
+Pennsylvania,D,49
+Pennsylvania,R,35
+Pennsylvania,D,52
+Pennsylvania,R,39
+Pennsylvania,D,50
+Pennsylvania,R,42
+Pennsylvania,D,48.2
+Pennsylvania,R,45.3
+Pennsylvania,D,49
+Pennsylvania,R,46
+Pennsylvania,D,44
+Pennsylvania,R,40.2
+Pennsylvania,D,53
+Pennsylvania,R,42
+Pennsylvania,D,54
+Pennsylvania,R,39
+Pennsylvania,D,58
+Pennsylvania,R,37
+Pennsylvania,D,57
+Pennsylvania,R,27
+Pennsylvania,D,59
+Pennsylvania,R,33
+Pennsylvania,D,48
+Pennsylvania,R,36
+Pennsylvania,D,52
+Pennsylvania,R,28
+Pennsylvania,D,52
+Pennsylvania,R,30
+Pennsylvania,D,55
+Pennsylvania,R,36
+Pennsylvania,D,54.6
+Pennsylvania,R,37.5
+Pennsylvania,D,46
+Pennsylvania,R,29
+Pennsylvania,D,52
+Pennsylvania,R,40
+Pennsylvania,D,51
+Pennsylvania,R,32
+Pennsylvania,D,52
+Pennsylvania,R,35
+Pennsylvania,D,54
+Pennsylvania,R,40
+Pennsylvania,D,46.08
+Pennsylvania,R,43.34
+Pennsylvania,D,48.6
+Pennsylvania,R,36
+Pennsylvania,D,48
+Pennsylvania,R,29
+Pennsylvania,D,47
+Pennsylvania,R,31
+Pennsylvania,D,38
+Pennsylvania,R,21
+Rhode Island,D,46.38
+Rhode Island,R,36.25
+Rhode Island,D,45
+Rhode Island,R,32
+Rhode Island,D,51
+Rhode Island,R,28
+Rhode Island,D,53
+Rhode Island,R,25
+Rhode Island,D,44.5
+Rhode Island,R,33.7
+Rhode Island,D,40
+Rhode Island,R,32
+Rhode Island,D,48
+Rhode Island,R,34
+Rhode Island,D,43
+Rhode Island,R,36
+Rhode Island,D,38.8
+Rhode Island,R,36.6
+Rhode Island,D,33
+Rhode Island,R,33
+Rhode Island,D,38.2
+Rhode Island,R,35.6
+Rhode Island,D,41
+Rhode Island,R,46
+South Carolina,D,44
+South Carolina,R,50
+South Carolina,D,42
+South Carolina,R,49
+South Carolina,D,42.7
+South Carolina,R,50.5
+South Carolina,D,39.4
+South Carolina,R,50.3
+South Carolina,D,38.1
+South Carolina,R,54.3
+South Carolina,D,32.1
+South Carolina,R,55.5
+South Carolina,D,36.7
+South Carolina,R,50.7
+South Carolina,D,41
+South Carolina,R,52
+South Carolina,D,43
+South Carolina,R,47
+South Dakota,D,38.6
+South Dakota,R,57.5
+South Dakota,D,41
+South Dakota,R,45
+South Dakota,D,51
+South Dakota,R,45
+South Dakota,D,46.6
+South Dakota,R,47.6
+South Dakota,D,44
+South Dakota,R,47
+South Dakota,D,45
+South Dakota,R,45
+South Dakota,D,45
+South Dakota,R,42
+South Dakota,D,42
+South Dakota,R,46
+South Dakota,D,40
+South Dakota,R,53
+Tennessee,D,28
+Tennessee,R,52
+Tennessee,D,44
+Tennessee,R,53
+Tennessee,D,40.8
+Tennessee,R,54.2
+Tennessee,D,37
+Tennessee,R,54
+Tennessee,D,36
+Tennessee,R,52
+Tennessee,D,44
+Tennessee,R,56
+Tennessee,D,41
+Tennessee,R,52
+Tennessee,D,42
+Tennessee,R,52
+Tennessee,D,36
+Tennessee,R,48
+Tennessee,D,36.1
+Tennessee,R,58.5
+Tennessee,D,40
+Tennessee,R,57
+Tennessee,D,39
+Tennessee,R,56
+Tennessee,D,37
+Tennessee,R,48
+Tennessee,D,44
+Tennessee,R,56
+Tennessee,D,39
+Tennessee,R,49
+Tennessee,D,33
+Tennessee,R,59
+Tennessee,D,34.62
+Tennessee,R,55.7
+Tennessee,D,36
+Tennessee,R,53
+Tennessee,D,35
+Tennessee,R,52
+Tennessee,D,35
+Tennessee,R,46
+Tennessee,D,46
+Tennessee,R,55
+Tennessee,D,43
+Tennessee,R,52
+Tennessee,D,43
+Tennessee,R,49
+Tennessee,D,37.3
+Tennessee,R,53.7
+Tennessee,D,35
+Tennessee,R,55
+Tennessee,D,34
+Tennessee,R,52
+Tennessee,D,39
+Tennessee,R,51
+Tennessee,D,40
+Tennessee,R,53
+Tennessee,D,40
+Tennessee,R,51
+Tennessee,D,33.8
+Tennessee,R,38.3
+Texas,D,42
+Texas,R,53
+Texas,D,47
+Texas,R,53
+Texas,D,40
+Texas,R,53
+Texas,D,44
+Texas,R,51
+Texas,D,44
+Texas,R,47
+Texas,D,44
+Texas,R,50
+Texas,D,42.1
+Texas,R,51.8
+Texas,D,43
+Texas,R,52
+Texas,D,45
+Texas,R,48
+Texas,D,42
+Texas,R,46
+Texas,D,41
+Texas,R,53
+Texas,D,43
+Texas,R,54
+Texas,D,44
+Texas,R,52
+Texas,D,45
+Texas,R,49
+Texas,D,46
+Texas,R,53
+Texas,D,42.1
+Texas,R,50
+Texas,D,40
+Texas,R,47
+Texas,D,43
+Texas,R,50
+Texas,D,44
+Texas,R,51
+Texas,D,38
+Texas,R,47
+Texas,D,45
+Texas,R,50
+Texas,D,46
+Texas,R,48
+Texas,D,39
+Texas,R,42
+Texas,D,40
+Texas,R,45
+Texas,D,42
+Texas,R,49
+Texas,D,39
+Texas,R,46
+Texas,D,44
+Texas,R,49
+Texas,D,42
+Texas,R,47
+Texas,D,41
+Texas,R,49
+Texas,D,39
+Texas,R,45
+Texas,D,43
+Texas,R,47
+Texas,D,43
+Texas,R,48
+Texas,D,37.2
+Texas,R,55.5
+Texas,D,39
+Texas,R,46
+Texas,D,37
+Texas,R,48
+Texas,D,42
+Texas,R,50
+Texas,D,40
+Texas,R,42
+Texas,D,45.3
+Texas,R,51.9
+Texas,D,38
+Texas,R,45
+Texas,D,40
+Texas,R,45
+Texas,D,37
+Texas,R,47
+Texas,D,36
+Texas,R,47
+Texas,D,43
+Texas,R,48
+Texas,D,37
+Texas,R,52
+Texas,D,39
+Texas,R,45
+Texas,D,43
+Texas,R,35
+Texas,D,39
+Texas,R,40
+Texas,D,35
+Texas,R,43
+Texas,D,44
+Texas,R,43
+Texas,D,39
+Texas,R,45
+Texas,D,37
+Texas,R,46
+Texas,D,42
+Texas,R,43
+Texas,D,37
+Texas,R,40
+Texas,D,44
+Texas,R,35
+Texas,D,37
+Texas,R,42
+Texas,D,38
+Texas,R,39
+Texas,D,33
+Texas,R,45
+Texas,D,42
+Texas,R,52
+Texas,D,45
+Texas,R,33
+Texas,D,42.8
+Texas,R,51.1
+Texas,D,40
+Texas,R,54
+Texas,D,32.2
+Texas,R,52.6
+Texas,D,33
+Texas,R,59
+Texas,D,37
+Texas,R,56
+Texas,D,38.1
+Texas,R,53.1
+Texas,D,35
+Texas,R,42
+Texas,D,39
+Texas,R,57
+Texas,D,38
+Texas,R,56
+Texas,D,35
+Texas,R,57
+Texas,D,36.64
+Texas,R,53.78
+Texas,D,38
+Texas,R,58
+Texas,D,33.2
+Texas,R,53
+Texas,D,29
+Texas,R,58
+Texas,D,45
+Texas,R,55
+Texas,D,39
+Texas,R,58
+Texas,D,41
+Texas,R,50
+Texas,D,36
+Texas,R,41
+Texas,D,39
+Texas,R,52
+Texas,D,33.91
+Texas,R,52.79
+Texas,D,28.3
+Texas,R,48.2
+Texas,D,37
+Texas,R,56
+Texas,D,38
+Texas,R,51
+Texas,D,25
+Texas,R,44
+Texas,D,31
+Texas,R,47
+Texas,D,41
+Texas,R,51
+Texas,D,32
+Texas,R,44
+Texas,D,34
+Texas,R,53
+Texas,D,36
+Texas,R,48
+Texas,D,40
+Texas,R,49
+Utah,D,33
+Utah,R,58
+Utah,D,26
+Utah,R,50
+Utah,D,29
+Utah,R,57
+Utah,D,19
+Utah,R,52
+Utah,D,19.6
+Utah,R,55
+Utah,D,17
+Utah,R,49
+Vermont,D,24
+Vermont,R,65
+Vermont,D,31
+Vermont,R,48
+Vermont,D,15.3
+Vermont,R,67.8
+Vermont,D,16
+Vermont,R,60
+Vermont,D,23.96
+Vermont,R,55.33
+Vermont,D,25
+Vermont,R,60
+Vermont,D,20
+Vermont,R,62
+Vermont,D,29
+Vermont,R,52
+Vermont,D,20
+Vermont,R,55
+Vermont,D,39
+Vermont,R,49
+Vermont,D,28
+Vermont,R,42
+Vermont,D,42
+Vermont,R,50
+Virginia,D,47
+Virginia,R,48
+Virginia,D,50
+Virginia,R,47
+Virginia,D,47.1
+Virginia,R,49.4
+Virginia,D,45
+Virginia,R,47
+Virginia,D,46
+Virginia,R,49
+Virginia,D,48
+Virginia,R,47
+Virginia,D,47
+Virginia,R,48
+Virginia,D,45
+Virginia,R,53
+Virginia,D,49
+Virginia,R,48
+Virginia,D,49
+Virginia,R,45
+Virginia,D,49
+Virginia,R,48
+Virginia,D,45.6
+Virginia,R,45.2
+Virginia,D,49.4
+Virginia,R,48.5
+Virginia,D,43
+Virginia,R,47
+Virginia,D,48.3
+Virginia,R,48.3
+Virginia,D,41
+Virginia,R,43
+Virginia,D,41
+Virginia,R,38
+Virginia,D,46
+Virginia,R,46
+Virginia,D,50
+Virginia,R,45
+Virginia,D,47.5
+Virginia,R,48.4
+Virginia,D,52
+Virginia,R,41
+Virginia,D,51
+Virginia,R,46
+Virginia,D,47
+Virginia,R,43
+Virginia,D,50
+Virginia,R,47
+Virginia,D,49
+Virginia,R,45
+Virginia,D,49.1
+Virginia,R,49.2
+Virginia,D,48
+Virginia,R,44
+Virginia,D,48
+Virginia,R,43
+Virginia,D,48
+Virginia,R,41
+Virginia,D,48
+Virginia,R,45
+Virginia,D,46
+Virginia,R,42
+Virginia,D,45
+Virginia,R,42
+Virginia,D,43
+Virginia,R,34
+Virginia,D,50.8
+Virginia,R,47.6
+Virginia,D,49
+Virginia,R,43
+Virginia,D,50
+Virginia,R,47
+Virginia,D,43
+Virginia,R,38
+Virginia,D,46
+Virginia,R,41
+Virginia,D,43
+Virginia,R,48
+Virginia,D,46
+Virginia,R,48
+Virginia,D,48
+Virginia,R,48
+Virginia,D,46.6
+Virginia,R,46.3
+Virginia,D,47
+Virginia,R,42
+Virginia,D,50
+Virginia,R,41
+Virginia,D,49
+Virginia,R,43
+Virginia,D,47
+Virginia,R,44
+Virginia,D,46
+Virginia,R,38
+Virginia,D,40
+Virginia,R,37
+Virginia,D,40
+Virginia,R,37
+Virginia,D,47
+Virginia,R,45
+Virginia,D,51
+Virginia,R,45
+Virginia,D,50
+Virginia,R,43
+Virginia,D,45
+Virginia,R,40
+Virginia,D,46.8
+Virginia,R,45
+Virginia,D,46.39
+Virginia,R,41.28
+Virginia,D,46
+Virginia,R,42
+Virginia,D,48
+Virginia,R,46
+Washington,D,59.1
+Washington,R,40.9
+Washington,D,56
+Washington,R,40
+Washington,D,54
+Washington,R,40
+Washington,D,53
+Washington,R,37
+Washington,D,62
+Washington,R,31
+Washington,D,60
+Washington,R,32
+Washington,D,61
+Washington,R,32
+Washington,D,61
+Washington,R,32
+Washington,D,60
+Washington,R,31
+Washington,D,60
+Washington,R,31
+Washington,D,56
+Washington,R,31
+Washington,D,56
+Washington,R,34
+Washington,D,57
+Washington,R,30
+West Virginia,D,34.9
+West Virginia,R,53.1
+West Virginia,D,34
+West Virginia,R,53
+West Virginia,D,37
+West Virginia,R,48
+West Virginia,D,40
+West Virginia,R,46
+West Virginia,D,27
+West Virginia,R,54
+West Virginia,D,49
+West Virginia,R,39
+Wisconsin,D,51
+Wisconsin,R,48
+Wisconsin,D,50
+Wisconsin,R,50
+Wisconsin,D,48
+Wisconsin,R,50
+Wisconsin,D,48
+Wisconsin,R,49.6
+Wisconsin,D,44
+Wisconsin,R,45
+Wisconsin,D,48
+Wisconsin,R,48
+Wisconsin,D,47
+Wisconsin,R,45
+Wisconsin,D,47.2
+Wisconsin,R,47.5
+Wisconsin,D,46
+Wisconsin,R,47
+Wisconsin,D,47.5
+Wisconsin,R,49.4
+Wisconsin,D,45.7
+Wisconsin,R,50.1
+Wisconsin,D,48
+Wisconsin,R,49
+Wisconsin,D,50
+Wisconsin,R,46
+Wisconsin,D,50
+Wisconsin,R,48
+Wisconsin,D,47
+Wisconsin,R,46
+Wisconsin,D,46
+Wisconsin,R,41
+Wisconsin,D,50
+Wisconsin,R,50
+Wisconsin,D,48
+Wisconsin,R,46
+Wisconsin,D,47
+Wisconsin,R,47
+Wisconsin,D,47
+Wisconsin,R,50
+Wisconsin,D,47
+Wisconsin,R,48
+Wisconsin,D,47
+Wisconsin,R,47.7
+Wisconsin,D,44.8
+Wisconsin,R,43.3
+Wisconsin,D,49
+Wisconsin,R,44
+Wisconsin,D,49
+Wisconsin,R,48
+Wisconsin,D,47
+Wisconsin,R,44
+Wisconsin,D,44
+Wisconsin,R,43
+Wisconsin,D,48
+Wisconsin,R,47.5
+Wisconsin,D,48
+Wisconsin,R,48
+Wisconsin,D,49
+Wisconsin,R,46
+Wisconsin,D,45
+Wisconsin,R,43
+Wisconsin,D,48
+Wisconsin,R,44
+Wisconsin,D,47
+Wisconsin,R,43
+Wisconsin,D,48
+Wisconsin,R,41
+Wisconsin,D,48
+Wisconsin,R,40
+Wisconsin,D,51
+Wisconsin,R,34
+Wisconsin,D,41
+Wisconsin,R,34
+Wisconsin,D,39
+Wisconsin,R,38
+Wisconsin,D,43
+Wisconsin,R,36
+Wisconsin,D,41
+Wisconsin,R,41
+Wisconsin,D,48
+Wisconsin,R,43
+Wisconsin,D,45
+Wisconsin,R,44
+Wisconsin,D,50.9
+Wisconsin,R,46.1
+Wisconsin,D,44
+Wisconsin,R,47
+Wisconsin,D,47
+Wisconsin,R,47
+Wisconsin,D,48.2
+Wisconsin,R,45.2
+Wisconsin,D,41
+Wisconsin,R,40
+Wisconsin,D,46
+Wisconsin,R,47
+Wisconsin,D,43
+Wisconsin,R,47
+Wisconsin,D,52
+Wisconsin,R,43
+Wisconsin,D,53
+Wisconsin,R,43
+Wisconsin,D,49
+Wisconsin,R,42
+Wisconsin,D,50
+Wisconsin,R,42
+Wisconsin,D,50
+Wisconsin,R,43
+Wisconsin,D,44
+Wisconsin,R,36
+Wisconsin,D,49
+Wisconsin,R,44
+Wisconsin,D,47
+Wisconsin,R,43
+Wisconsin,D,49
+Wisconsin,R,45
+Wisconsin,D,46
+Wisconsin,R,43.6
+Wisconsin,D,44
+Wisconsin,R,46
+Wisconsin,D,46
+Wisconsin,R,46
+Wisconsin,D,49
+Wisconsin,R,44
+Wisconsin,D,47.5
+Wisconsin,R,40.6
+Wisconsin,D,54
+Wisconsin,R,41
+Wisconsin,D,44
+Wisconsin,R,48
+Wisconsin,D,49
+Wisconsin,R,45
+Wyoming,D,23.6
+Wyoming,R,75.9
+Wyoming,D,27
+Wyoming,R,61
