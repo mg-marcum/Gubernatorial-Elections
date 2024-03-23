@@ -1,0 +1,131 @@
+---
+title: "Gubernatorial Elections - Economic Influences"
+author: "Matthew Marcum"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r,  include=FALSE}
+library(socviz)
+library(tidyverse)
+library(here)
+library(dplyr)
+library(modelr)
+library(broom)
+library(GGally)
+library(readxl)
+library(downloadthis)
+library(data.table)
+```
+
+Change in Gubernatorial Elections
+
+```{r}
+PresidentElectionsStateGroupings <- read_csv("https://raw.githubusercontent.com/mg-marcum/Gubernatorial-Elections/main/Presidential%20Elections%20and%20State%20Groupings.csv")
+RecentGubernatorialElections <- read_csv("https://raw.githubusercontent.com/mg-marcum/Gubernatorial-Elections/main/Most%20Recent%20Gubernatorial%20Elections%202020-2023.csv")
+RecentGubernatorialElections <- RecentGubernatorialElections[, -which(names(RecentGubernatorialElections) == "ThirdVotes")]
+RecentGubernatorialElections <- RecentGubernatorialElections[, -which(names(RecentGubernatorialElections) == "OtherVotes")]
+Election4YearsBefore <- read_csv("https://raw.githubusercontent.com/mg-marcum/Gubernatorial-Elections/main/Gubernatorial%20Elections%202016-2019%20(Excludes%20NH%20%26%20VT%202016).csv")
+AllElections <- full_join(Election4YearsBefore, RecentGubernatorialElections, by = "STATE")
+AllElections <- AllElections %>% mutate(PctChangeD = (((DemocratGov.y / (DemocratGov.y + RepublicanGov.y + OtherGov.y)) - (DemocratGov.x / (DemocratGov.x + RepublicanGov.y + OtherGov.x))) / (DemocratGov.x / (DemocratGov.x + RepublicanGov.x + OtherGov.x))))
+AllElections <- AllElections %>% mutate(PctChangeR = (((RepublicanGov.y / (DemocratGov.y + RepublicanGov.y + OtherGov.y)) - (RepublicanGov.x / (DemocratGov.x + RepublicanGov.y + OtherGov.x))) / (RepublicanGov.x / (DemocratGov.x + RepublicanGov.x + OtherGov.x))))
+AllElections <- full_join(AllElections, PresidentElectionsStateGroupings, by = "STATE")
+```
+
+Change In GDP 2017-2020
+
+```{r}
+GDP <- read_csv("https://raw.githubusercontent.com/mg-marcum/Gubernatorial-Elections/main/State%20GDPs%20Q1%202017%20-%20Q4%202020%20(2012%20millions%20USD).csv")
+GDP <- GDP %>% mutate(PctChangeGDP = ((Q42020 - Q12017) / Q12017))
+AllElections <- full_join(AllElections, GDP, by = "STATE")
+AllElections <- na.omit(AllElections)
+```
+
+Comparison
+
+```{r}
+IncRmodel_AllElectionsRepTot <- lm(PctChangeR ~ PctChangeGDP, data = AllElections, WinnerGov.x == "R")
+IncRmodel_AllElectionsDemTot <- lm(PctChangeD ~ PctChangeGDP, data = AllElections, WinnerGov.x == "R")
+IncRmodel_AllElectionsRepOff <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsDemOff <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsRepOn <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Timing == "On-Year" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsDemOn <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Timing == "On-Year" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsRepR <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Republican" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsDemR <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Republican" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsRepS <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Swing" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsDemS <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Swing" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsRepD <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Democrat" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsDemD <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Democrat" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsRepOffR <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Republican" & Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsDemOffR <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Republican" & Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsRepOffS <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Swing" & Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsDemOffS <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Swing" & Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsRepOffD <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Democrat" & Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsDemOffD <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Democrat" & Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsRepOnR <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Republican" & Timing == "On-Year" & WinnerGov.x == "R"))
+IncRmodel_AllElectionsDemOnR <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Republican" & Timing == "On-Year" & WinnerGov.x == "R"))
+```
+
+```{r}
+IncDmodel_AllElectionsRepTot <- lm(PctChangeR ~ PctChangeGDP, data = AllElections, WinnerGov.x == "D")
+IncDmodel_AllElectionsDemTot <- lm(PctChangeD ~ PctChangeGDP, data = AllElections, WinnerGov.x == "D")
+IncDmodel_AllElectionsRepOff <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsDemOff <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsRepOn <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Timing == "On-Year" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsDemOn <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Timing == "On-Year" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsRepR <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Republican" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsDemR <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Republican" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsRepS <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Swing" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsDemS <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Swing" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsRepD <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Democrat" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsDemD <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Democrat" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsRepOffR <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Republican" & Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsDemOffR <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Republican" & Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsRepOffS <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Swing" & Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsDemOffS <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Swing" & Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsRepOffD <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Democrat" & Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsDemOffD <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Democrat" & Timing == "Off-Year" | Timing == "Both" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsRepOnR <- lm(PctChangeR ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Republican" & Timing == "On-Year" & WinnerGov.x == "D"))
+IncDmodel_AllElectionsDemOnR <- lm(PctChangeD ~ PctChangeGDP, data = subset(AllElections, Political_Favorabilty == "Republican" & Timing == "On-Year" & WinnerGov.x == "D"))
+
+```
+
+```{r}
+IncRCorrelationRep <- data.frame(IncRRepublicanCorrelation = c(IncRmodel_AllElectionsRepTot$coefficients["PctChangeGDP"], IncRmodel_AllElectionsRepOff$coefficients["PctChangeGDP"], IncRmodel_AllElectionsRepOn$coefficients["PctChangeGDP"],  IncRmodel_AllElectionsRepR$coefficients["PctChangeGDP"], IncRmodel_AllElectionsRepS$coefficients["PctChangeGDP"], IncRmodel_AllElectionsRepD$coefficients["PctChangeGDP"],  IncRmodel_AllElectionsRepOffR$coefficients["PctChangeGDP"], IncRmodel_AllElectionsRepOffS$coefficients["PctChangeGDP"], IncRmodel_AllElectionsRepOffD$coefficients["PctChangeGDP"], IncRmodel_AllElectionsRepOnR$coefficients["PctChangeGDP"]))
+IncRCorrelationDem <- data.frame(IncRDemocratCorrelation = c(IncRmodel_AllElectionsDemTot$coefficients["PctChangeGDP"], IncRmodel_AllElectionsDemOff$coefficients["PctChangeGDP"], IncRmodel_AllElectionsDemOn$coefficients["PctChangeGDP"],  IncRmodel_AllElectionsDemR$coefficients["PctChangeGDP"], IncRmodel_AllElectionsDemS$coefficients["PctChangeGDP"], IncRmodel_AllElectionsDemD$coefficients["PctChangeGDP"],  IncRmodel_AllElectionsDemOffR$coefficients["PctChangeGDP"], IncRmodel_AllElectionsDemOffS$coefficients["PctChangeGDP"], IncRmodel_AllElectionsDemOffD$coefficients["PctChangeGDP"], IncRmodel_AllElectionsDemOnR$coefficients["PctChangeGDP"]))
+```
+
+```{r}
+IncDCorrelationRep <- data.frame(IncDRepublicanCorrelation = c(IncDmodel_AllElectionsRepTot$coefficients["PctChangeGDP"], IncDmodel_AllElectionsRepOff$coefficients["PctChangeGDP"], IncDmodel_AllElectionsRepOn$coefficients["PctChangeGDP"],  IncDmodel_AllElectionsRepR$coefficients["PctChangeGDP"], IncDmodel_AllElectionsRepS$coefficients["PctChangeGDP"], IncDmodel_AllElectionsRepD$coefficients["PctChangeGDP"],  IncDmodel_AllElectionsRepOffR$coefficients["PctChangeGDP"], IncDmodel_AllElectionsRepOffS$coefficients["PctChangeGDP"], IncDmodel_AllElectionsRepOffD$coefficients["PctChangeGDP"], IncDmodel_AllElectionsRepOnR$coefficients["PctChangeGDP"]))
+IncDCorrelationDem <- data.frame(IncDDemocratCorrelation = c(IncDmodel_AllElectionsDemTot$coefficients["PctChangeGDP"], IncDmodel_AllElectionsDemOff$coefficients["PctChangeGDP"], IncDmodel_AllElectionsDemOn$coefficients["PctChangeGDP"],  IncDmodel_AllElectionsDemR$coefficients["PctChangeGDP"], IncDmodel_AllElectionsDemS$coefficients["PctChangeGDP"], IncDmodel_AllElectionsDemD$coefficients["PctChangeGDP"],  IncDmodel_AllElectionsDemOffR$coefficients["PctChangeGDP"], IncDmodel_AllElectionsDemOffS$coefficients["PctChangeGDP"], IncDmodel_AllElectionsDemOffD$coefficients["PctChangeGDP"], IncDmodel_AllElectionsDemOnR$coefficients["PctChangeGDP"]))
+```
+
+```{r}
+RsquareIncR <- data.frame(IncRRsquareRep = c(rsquare(IncRmodel_AllElectionsRepTot, data = AllElections), rsquare(IncRmodel_AllElectionsRepOff, data = AllElections), rsquare(IncRmodel_AllElectionsRepOn, data = AllElections), rsquare(IncRmodel_AllElectionsRepR, data = AllElections), rsquare(IncRmodel_AllElectionsRepS, data = AllElections), rsquare(IncRmodel_AllElectionsRepD, data = AllElections), rsquare(IncRmodel_AllElectionsRepOffR, data = AllElections), rsquare(IncRmodel_AllElectionsRepOffS, data = AllElections), rsquare(IncRmodel_AllElectionsRepOffD, data = AllElections), rsquare(IncRmodel_AllElectionsRepOnR, data = AllElections)), IncRRsquareDem = c(rsquare(IncRmodel_AllElectionsDemTot, data = AllElections), rsquare(IncRmodel_AllElectionsDemOff, data = AllElections), rsquare(IncRmodel_AllElectionsDemOn, data = AllElections), rsquare(IncRmodel_AllElectionsDemR, data = AllElections), rsquare(IncRmodel_AllElectionsDemS, data = AllElections), rsquare(IncRmodel_AllElectionsDemD, data = AllElections), rsquare(IncRmodel_AllElectionsDemOffR, data = AllElections), rsquare(IncRmodel_AllElectionsDemOffS, data = AllElections), rsquare(IncRmodel_AllElectionsDemOffD, data = AllElections), rsquare(IncRmodel_AllElectionsDemOnR, data = AllElections)))
+```
+
+```{r}
+RsquareIncD <- data.frame(IncDRsquareRep = c(rsquare(IncDmodel_AllElectionsRepTot, data = AllElections), rsquare(IncDmodel_AllElectionsRepOff, data = AllElections), rsquare(IncDmodel_AllElectionsRepOn, data = AllElections), rsquare(IncDmodel_AllElectionsRepR, data = AllElections), rsquare(IncDmodel_AllElectionsRepS, data = AllElections), rsquare(IncDmodel_AllElectionsRepD, data = AllElections), rsquare(IncDmodel_AllElectionsRepOffR, data = AllElections), rsquare(IncDmodel_AllElectionsRepOffS, data = AllElections), rsquare(IncDmodel_AllElectionsRepOffD, data = AllElections), rsquare(IncDmodel_AllElectionsRepOnR, data = AllElections)), IncDRsquareDem = c(rsquare(IncDmodel_AllElectionsDemTot, data = AllElections), rsquare(IncDmodel_AllElectionsDemOff, data = AllElections), rsquare(IncDmodel_AllElectionsDemOn, data = AllElections), rsquare(IncDmodel_AllElectionsDemR, data = AllElections), rsquare(IncDmodel_AllElectionsDemS, data = AllElections), rsquare(IncDmodel_AllElectionsDemD, data = AllElections), rsquare(IncDmodel_AllElectionsDemOffR, data = AllElections), rsquare(IncDmodel_AllElectionsDemOffS, data = AllElections), rsquare(IncDmodel_AllElectionsDemOffD, data = AllElections), rsquare(IncDmodel_AllElectionsDemOnR, data = AllElections)))
+```
+
+```{r}
+Labels <- data.frame(Category = c("Total", "Off-Year", "On-Year", "Republican state", "Swing state", "Democrat state", "Off-Year Rep", "Off-Year Swing", "Off-Year Dem", "On-Year Rep"))
+```
+
+```{r}
+IncREconomicComparison <- cbind(Labels, IncRCorrelationRep, IncRCorrelationDem, RsquareIncR)
+IncREconomicComparison$IncRCorrelationAv <- rowMeans(IncREconomicComparison[, c("IncRRepublicanCorrelation", "IncRDemocratCorrelation")], na.rm = TRUE)
+IncREconomicComparison$IncRRsquareAv <- rowMeans(IncREconomicComparison[, c("IncRRsquareRep", "IncRRsquareDem")], na.rm = TRUE)
+IncDEconomicComparison <- cbind(Labels, IncDCorrelationRep, IncDCorrelationDem, RsquareIncD)
+IncDEconomicComparison$IncDCorrelationAv <- rowMeans(IncDEconomicComparison[, c("IncDRepublicanCorrelation", "IncDDemocratCorrelation")], na.rm = TRUE)
+IncDEconomicComparison$IncDRsquareAv <- rowMeans(IncDEconomicComparison[, c("IncDRsquareRep", "IncDRsquareDem")], na.rm = TRUE)
+EconomicComparison <- full_join(IncREconomicComparison, IncDEconomicComparison, by = "Category")
+EconomicComparison %>% download_this(output_name = "Coefficients and R Squared Values for Economic Influences", output_extension = ".xlsx", button_label = "Download as XLSX", button_type = "warning", has_icon = TRUE, icon = "fa fa-save")
+```
